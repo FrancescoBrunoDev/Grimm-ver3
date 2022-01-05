@@ -15038,8 +15038,9 @@ ul.pagination .page-numbers.current {
 }
 
 .txt-rotate-keywords {
-  display: inline-block;
+  /*display: inline-block;*/
   position: relative;
+  text-align: right;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   -webkit-transform: translateZ(0);
@@ -15047,8 +15048,9 @@ ul.pagination .page-numbers.current {
   white-space: nowrap;
 }
 .txt-rotate-keywords .keyword {
-  display: inline-block;
+  /*display: inline-block;*/
   position: absolute;
+  text-align: right;
   left: 0;
   top: auto;
   opacity: 0;
