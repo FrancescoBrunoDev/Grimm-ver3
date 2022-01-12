@@ -1774,6 +1774,7 @@ figure + .ld-cart-product-details {
 .navbar-brand img {
   -webkit-transition: opacity 0.3s, visibiliy 0.3s;
   transition: opacity 0.3s, visibiliy 0.3s;
+  height: 30px;
 }
 .navbar-brand .logo-sticky {
   display: none;
@@ -15038,7 +15039,7 @@ ul.pagination .page-numbers.current {
 }
 
 .txt-rotate-keywords {
-  /*display: inline-block;*/
+  display: inline-block;
   position: relative;
   text-align: right;
   -webkit-backface-visibility: hidden;
@@ -15048,7 +15049,7 @@ ul.pagination .page-numbers.current {
   white-space: nowrap;
 }
 .txt-rotate-keywords .keyword {
-  /*display: inline-block;*/
+  display: inline-block;
   position: absolute;
   text-align: right;
   left: 0;
@@ -19993,7 +19994,7 @@ body.search .no-results .search-form input[type=submit] {
   }
 
   [data-mobile-header-scheme=dark] .navbar-header {
-    background-color: #191D18;
+    background-color: black;
   }
   [data-mobile-header-scheme=dark] .lqd-mobile-modules-container .social-icon a, [data-mobile-header-scheme=dark] .lqd-mobile-modules-container .social-icon a:hover {
     color: #000;
@@ -23856,6 +23857,7 @@ body.search .no-results .search-form input[type=submit] {
 
 .bg-cover {
   background-size: cover !important;
+  background-position: center !important;
 }
 
 .bg-contain {
@@ -27943,12 +27945,51 @@ body.search .no-results .search-form input[type=submit] {
 
 /* 7.3. Model Visualizer */
 @media screen and (max-width: 1200px){
-  model-viewer {
-    display: none;
+  section.desktop-section {
+    display: none !important;
   }
+
+  .main-page {
+    height: 100vh;
+    width: 90%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .fa-arrow-right{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.txt-rotate-keywords {
+  display: inline-block;
+  position: relative;
+  text-align: right;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  white-space: nowrap;
+}
+.txt-rotate-keywords .keyword {
+  display: inline-block;
+  position: absolute;
+  text-align: right;
+  left: 0;
+  top: auto;
+  opacity: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
 }
 @media screen and (min-width: 1201px) {
   section.mobile-section { 
     display: none; 
   }
+  
 }
