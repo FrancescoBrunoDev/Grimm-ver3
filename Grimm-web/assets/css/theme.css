@@ -162,7 +162,7 @@ body {
 }
 
 .logo-default {
-  height: 47px;
+  height: 47px !important;
 }
 
 .logo-light {
@@ -19274,7 +19274,7 @@ body.search .no-results .search-form input[type=submit] {
 @media screen and (max-width: 1199px) {
   /*********************************************************
   -------------
-  MOBULE HEADER
+  MOBILE HEADER
   -------------
   
   - Nav trigger alignment
@@ -27964,7 +27964,7 @@ body.search .no-results .search-form input[type=submit] {
   }
 
 .txt-rotate-keywords {
-  display: inline-block;
+  display: inline-block !important;
   position: relative;
   text-align: right;
   -webkit-backface-visibility: hidden;
@@ -27992,4 +27992,18 @@ body.search .no-results .search-form input[type=submit] {
     display: none; 
   }
   
+  .title-vertical-center {
+    padding-bottom: 20% !important;
+  }
+
+  .background-video {
+  video {
+  object-fit: cover;
+
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  }
+  }
 }

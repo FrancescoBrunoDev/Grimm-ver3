@@ -31,7 +31,7 @@ h4, .h4,
 h5, .h5,
 h6 .h6 {
   font-family: 'neuzeit-grotesk', 'sans-serif';
-  color: #060221;
+  color: white;
 }
 
 .h1,
@@ -127,6 +127,7 @@ h6 {
 
 .main-footer {
   color: #98a2aa;
+  background-color: black;
 }
 
 .main-footer a:not(.btn) {
