@@ -27989,7 +27989,9 @@ body.search .no-results .search-form input[type=submit] {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
-
+.mobile-mt-10 {
+  padding-top: 30px !important;
+}
 }
 @media screen and (min-width: 1201px) {
   section.mobile-section { 
