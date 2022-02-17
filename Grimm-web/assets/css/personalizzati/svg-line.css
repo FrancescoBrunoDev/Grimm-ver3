@@ -1,0 +1,54 @@
+.cls-1 {
+    fill:none;
+    stroke: #F2F2F2;
+    stroke-linecap:round;
+    stroke-miterlimit: 10;
+    stroke-width: 5px;
+    padding-right: 8vw;
+}
+
+.line-container {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    z-index: 100;
+}
+
+svg {
+    display: inline-block;
+    height: 100%;
+}
+
+.svg-side {
+    display: flex;
+    justify-content: flex-end;   
+    height: 100vw;
+    width: 100%;
+    position: fixed;
+    color: white;
+    margin-top: 25.7vh;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.svg-text-title {
+    column-gap: 60px;
+    text-decoration: none;
+    text-align: right;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    z-index: 1;
+    padding-right: 9vw;
+}
+
+.svg-text-title:hover {
+    color: #f1f1f1;
+}
