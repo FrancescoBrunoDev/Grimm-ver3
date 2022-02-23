@@ -28002,8 +28002,7 @@ body.search .no-results .search-form input[type=submit] {
     padding-bottom: 20% !important;
   }
 
-  .background-video {
-  video {
+  .background-video video {
   object-fit: cover;
 
   height: 100vh;
@@ -28011,5 +28010,6 @@ body.search .no-results .search-form input[type=submit] {
   top: 0;
   left: 0;
   }
-  }
 }
+
+/*side-bar*/
