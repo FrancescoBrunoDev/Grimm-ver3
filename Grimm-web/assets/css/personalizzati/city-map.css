@@ -1,0 +1,57 @@
+
+.city-map {
+  -webkit-position: sticky;
+  position: sticky !important;
+  top: 20%;
+  bottom: auto;
+
+}
+
+.card-map-left {
+box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+border-radius: 5px;
+background-color: rgba(0, 0, 0, 0.5);
+-webkit-backdrop-filter: blur(4px);
+backdrop-filter: blur(4px);
+margin-bottom: 100vh;
+box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-map-right {
+box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+border-radius: 5px;
+background-color: rgba(0, 0, 0, 0.500);
+-webkit-backdrop-filter: blur(4px);
+backdrop-filter: blur(4px);
+margin-bottom: 100vh;
+box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-map-last {
+box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+border-radius: 5px;
+background-color: rgba(0, 0, 0, 0.500);
+-webkit-backdrop-filter: blur(4px);
+backdrop-filter: blur(4px);
+margin-bottom: 50vh;
+box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-body {
+    padding: 10px 10px 10px 10px;
+}
+
+
+.card-subtitle {
+    opacity: 1;
+    color: white;
+}
+
+.card-title {
+    font-family: "glacialindifference", sans-serif;
+    color: white;
+}
+
+.card-text {
+    color: white;
+}

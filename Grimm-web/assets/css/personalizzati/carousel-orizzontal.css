@@ -41,6 +41,7 @@ a:hover {
   height: 166.6px;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 10px;
 }
 .tile__details {
   position: absolute;
@@ -72,6 +73,7 @@ a:hover {
   padding: 10px;
   left: 10px;
 }
+
 .tile__title {
   position: absolute;
   bottom: 0;
@@ -91,4 +93,16 @@ a:hover {
   transform: translate3d(125px, 0, 0);
 }
 
-@media
+@media screen and (max-width: 1200px) {
+.tile__details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  font-size: 1em;
+  opacity: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
+  transition: 450ms opacity;
+}
+  }

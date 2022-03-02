@@ -570,6 +570,7 @@ small,
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  height: 60px;
 }
 .main-header .no-gutters {
   margin-right: 0;
@@ -12134,6 +12135,11 @@ a.ui-button:active,
   position: relative;
 }
 
+.model-viewer-busto {
+  height: 70vh;
+  width: 70vh;
+}
+
 .liquid-img-group-single {
   display: block;
   position: relative;
@@ -20313,6 +20319,10 @@ body.search .no-results .search-form input[type=submit] {
   line-height: 0.75em !important;
 }
 
+.lh-80 {
+  line-height: 0.80em !important;
+}
+
 .lh-85 {
   line-height: 0.85em !important;
 }
@@ -20748,6 +20758,10 @@ body.search .no-results .search-form input[type=submit] {
 
 .pt-10percent {
   padding-top: 10% !important;
+}
+
+.pt-5percent {
+  padding-top: 5% !important;
 }
 
 .pl-0 {
