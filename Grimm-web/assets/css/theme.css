@@ -17586,7 +17586,7 @@ ol.breadcrumb.text-darker a:hover {
   -webkit-box-flex: 1;
           flex: 1 0;
   height: 1px;
-  background-color: var(--color-primary);
+  background-color: black;
 }
 
 /* 3.65. Restaurant Menu */
@@ -28026,4 +28026,63 @@ body.search .no-results .search-form input[type=submit] {
   }
 }
 
-/*side-bar*/
+.rounded {
+  border-radius: 0.25rem !important;
+}
+
+.rounded-0 {
+  border-radius: 0 !important;
+}
+
+.rounded-1 {
+  border-radius: 0.2rem !important;
+}
+
+.rounded-2 {
+  border-radius: 0.25rem !important;
+}
+
+.rounded-3 {
+  border-radius: 0.3rem !important;
+}
+
+.rounded-4 {
+  border-radius: 0.35rem !important;
+}
+
+.rounded-5 {
+  border-radius: 0.4rem !important;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+.rounded-pill {
+  border-radius: 50rem !important;
+}
+
+.rounded-top {
+  border-top-left-radius: 0.25rem !important;
+  border-top-right-radius: 0.25rem !important;
+}
+
+.rounded-end {
+  border-top-right-radius: 0.25rem !important;
+  border-bottom-right-radius: 0.25rem !important;
+}
+
+.rounded-bottom {
+  border-bottom-right-radius: 0.25rem !important;
+  border-bottom-left-radius: 0.25rem !important;
+}
+
+.rounded-start {
+  border-bottom-left-radius: 0.25rem !important;
+  border-top-left-radius: 0.25rem !important;
+}
+
+.supporters-logo {
+ height: 100px;
+ object-fit: contain;
+}
