@@ -20626,6 +20626,10 @@ body.search .no-results .search-form input[type=submit] {
   color: #fff !important;
 }
 
+.text-leggero {
+  color: #FCFFFC !important;
+}
+
 .text-black {
   color: #000 !important;
 }
@@ -23483,7 +23487,7 @@ body.search .no-results .search-form input[type=submit] {
 }
 
 .bg-white {
-  background: #fff !important;
+  background: #FCFFFC !important;
 }
 
 .bg-black {

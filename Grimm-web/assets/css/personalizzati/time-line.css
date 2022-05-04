@@ -25,6 +25,19 @@
     font-size: 1.5rem;
 }
 
+@media screen and (max-width: 992px) { 
+    .timeline-item::before {
+    content: attr(date-is);
+    position: absolute;
+    left: 1rem;
+    font-weight: bold;
+    top: -1.5rem;
+    display: block;
+    font-weight: 600;
+    font-size: 1.5rem;
+    }
+}
+
 /* per il titolo */
 
 .timeline-item::after {
@@ -45,3 +58,4 @@
     border-image: -webkit-linear-gradient(top, rgb(255, 255, 255) 60%, transparent) 1 100%;
     border-image: linear-gradient(to bottom, rgb(255, 255, 255) 60%, transparent) 1 100%;
 }
+

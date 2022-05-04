@@ -1,3 +1,4 @@
+
 :root {
   --color-primary: #ffffff;
   --color-gradient-start: #ff1839;
@@ -32,7 +33,11 @@ body {
 .h2, h2,
 .h3, h3,
 .h4, h4 {
-  font-family: 'Prata';
+  font-family: 'Libre Baskerville', serif;
+}
+
+.prata {
+  font-family: 'Prata', serif !important;
 }
 
 .h1,
