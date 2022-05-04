@@ -12,22 +12,26 @@
     padding-left: 1rem;
 }
 
+/* per il numero */
+
 .timeline-item::before {
     content: attr(date-is);
     position: absolute;
     left: -4rem;
     font-weight: bold;
-    top: .45em;
+    top: 0.8em;
     display: block;
     font-weight: 600;
     font-size: 1.5rem;
 }
 
+/* per il titolo */
+
 .timeline-item::after {
     width: 15px;
     height: 15px;
     display: block;
-    top: 1em;
+    top: 1.6em;
     position: absolute;
     left: -8.5px;
     border-radius: 10px;

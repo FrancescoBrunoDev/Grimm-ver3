@@ -108,7 +108,7 @@
  $font-color: 		#808291;
 
  [ COLORS ]
- $color-primary: #3ed2a7;
+ $color-primary: black;
  $color-secondary: #ffb09f;
 
 -----------------------------------------*/
@@ -118,7 +118,7 @@
 /* 1.1. Base */
 :root {
   --color-font: #808291;
-  --color-primary: #3ed2a7;
+  --color-primary: black;
   --color-secondary: #ffb09f;
   --color-link: #a7a9b8;
   --color-link-hover: #181b31;
@@ -3163,6 +3163,16 @@ figure + .ld-cart-product-details {
   -webkit-transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
           transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
 }
+
+.lqd-mehr {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 1rem;
+  z-index: 10;
+}
+
+
 .lqd-stack-extra-content > * {
   margin: 0;
   color: inherit;
@@ -16315,7 +16325,7 @@ ul.pagination .page-numbers.current {
 
 .ld-pb-icon-wrap {
   background-color: #e8faf4;
-  color: #3ed2a7;
+  color: black;
   font-size: 90px;
   line-height: 1;
 }
