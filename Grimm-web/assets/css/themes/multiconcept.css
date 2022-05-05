@@ -37,7 +37,7 @@ body {
 }
 
 .prata {
-  font-family: 'Prata', serif !important;
+  font-family: 'DM Serif Display', serif !important;
 }
 
 .h1,
@@ -88,4 +88,8 @@ h6 {
 .main-nav > li:hover > a,
 .main-nav > li > a:hover {
   color: white;
+}
+
+.lh-3 {
+  line-height: 110%;
 }
