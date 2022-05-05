@@ -28020,17 +28020,7 @@ body.search .no-results .search-form input[type=submit] {
 .mobile-mt-10 {
   padding-top: 30px !important;
 }
-}
-@media screen and (min-width: 1201px) {
-  section.mobile-section { 
-    display: none; 
-  }
-  
-  .title-vertical-center {
-    padding-bottom: 20% !important;
-  }
 
-}
 
 .rounded {
   border-radius: 0.25rem !important;
