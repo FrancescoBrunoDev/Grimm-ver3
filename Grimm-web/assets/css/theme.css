@@ -1288,7 +1288,7 @@ small,
           transform: rotate(-90deg);
 }
 .nav-trigger.scheme-light {
-  color: #fff;
+  color: #fff !important;
 }
 .nav-trigger.scheme-light .bar {
   background-color: #fff;
@@ -3165,10 +3165,10 @@ figure + .ld-cart-product-details {
 }
 
 .lqd-mehr {
-  position: fixed;
+  position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 1rem;
+  bottom: 1%;
   z-index: 10;
 }
 
@@ -19637,7 +19637,7 @@ body.search .no-results .search-form input[type=submit] {
   }
 
   .main-header .navbar-brand {
-    padding: 22px 0;
+    padding: 5px 0;
     max-width: none !important;
   }
   .main-header .mobile-logo-default ~ .logo-default {
@@ -20023,14 +20023,14 @@ body.search .no-results .search-form input[type=submit] {
     background-color: #191D18;
   }
   [data-mobile-header-scheme=dark] .lqd-mobile-modules-container .ld-search-form input {
-    border-color: rgba(255, 255, 255, 0.45);
+    border-color: rgba(255, 255, 255, 1);
     color: #fff;
   }
   [data-mobile-header-scheme=dark] .lqd-mobile-modules-container .ld-search-form .input-icon {
     color: #fff;
   }
   [data-mobile-header-scheme=dark] .lqd-mobile-modules-container .ld-search-form .input-icon:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 1);
   }
   [data-mobile-header-scheme=dark] .nav-trigger .bar {
     background-color: #fff;
@@ -27984,8 +27984,7 @@ body.search .no-results .search-form input[type=submit] {
 
   .main-page {
     height: 100vh;
-    width: 90%;
-    margin: 0;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -28031,14 +28030,6 @@ body.search .no-results .search-form input[type=submit] {
     padding-bottom: 20% !important;
   }
 
-  .background-video video {
-  object-fit: cover;
-
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  }
 }
 
 .rounded {
