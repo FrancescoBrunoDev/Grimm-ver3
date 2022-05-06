@@ -23492,6 +23492,10 @@ body.search .no-results .search-form input[type=submit] {
   background: #FCFFFC !important;
 }
 
+.bg-super-white {
+  background: white !important;
+}
+
 .bg-black {
   background: #000 !important;
 }
@@ -28111,4 +28115,14 @@ body.search .no-results .search-form input[type=submit] {
 .supporters-logo {
  height: 100px;
  object-fit: contain;
+}
+
+.rounded-15-collapse {
+  border-radius: 2.2rem !important;
+}
+
+.accordion-collapse {
+  top: -65px;
+  position: relative;
+  
 }
