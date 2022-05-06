@@ -4406,6 +4406,8 @@ figure + .ld-cart-product-details {
 
 .accordion-content {
   padding: 1em 0;
+  text-align: justify;
+  text-justify: inter-character;
 }
 .accordion-content > :last-child,
 .accordion-content > :only-child {
@@ -4417,7 +4419,7 @@ figure + .ld-cart-product-details {
   padding-left: 30px;
   padding-right: 60px;
   background-color: transparent;
-  color: inherit;
+  color: white;
 }
 .accordion-active-has-fill .accordion-expander {
   right: 30px;
@@ -4431,7 +4433,7 @@ figure + .ld-cart-product-details {
 }
 .accordion-active-has-fill .active .accordion-title a {
   background-color: var(--color-primary);
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .accordion-body-underlined .accordion-item {
@@ -4499,8 +4501,8 @@ figure + .ld-cart-product-details {
   padding-left: 30px;
 }
 .accordion-expander-left.accordion-body-bordered .accordion-title a, .accordion-expander-left.accordion-title-bordered .accordion-title a, .accordion-expander-left.accordion-active-has-fill .accordion-title a {
-  padding-right: 30px;
-  padding-left: 60px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .accordion-expander-left.accordion-body-bordered .accordion-expander, .accordion-expander-left.accordion-title-bordered .accordion-expander, .accordion-expander-left.accordion-active-has-fill .accordion-expander {
   left: 30px;
