@@ -147,12 +147,13 @@
 				alt="Video einer 3D-Büste von Grimm">
 				<div class="container main-page">
 					<div class="row">
-						<div class="pp-tableCell" style="height: 100%">
+						<div class="pp-tableCell">
 							<div class="lqd-stack-section-inner">
 								<div class="container title-vertical-center">
-									<div class="row col-md-offset-3 " id="Home" >
+									<div class="row col-lg-offset-3 col-md-offset-3 col-sm-offset-2 " id="Home">
 
-										<div class="lqd-column col-md-8 ca-initvalues-applied lqd-animations-done ">
+										<div
+											class="lqd-column col-lg-8 col-md-8 col-sm-10 ca-initvalues-applied lqd-animations-done ">
 
 											<div class="text-center" data-custom-animations="true"
 												data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"7000","delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"scale":0.99,"opacity":0},"animations":{"scale":1,"opacity":1}}'>
@@ -161,17 +162,17 @@
 											</div>
 											<div class="row">
 
-												<div class="lqd-column col-md-12 col-xs-12 pt-40 text-center">
+												<div class="lqd-column col-md-12 col-xs-12 text-center pt-3">
 
-													<div class="ld-fancy-heading mask-text"
-														data-fittext="true"
+													<div class="ld-fancy-heading mask-text" data-fittext="true"
 														data-fittext-options='{"compressor":0.9,"maxFontSize": 60,"minFontSize": 30}'
 														data-custom-animations="true"
 														data-ca-options='{"triggerHandler":"inview","animationTarget":".ld-fh-txt","duration":"10000", "startDelay": "500", "delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"scale":0.99,"opacity":0},"animations":{"scale":1,"opacity":1}}'>
 														<span class="">
-															<span class="ld-fh-txt lh-3 text-white prata">Der Brahms-Freund <br>Julius Otto
+															<span class="ld-fh-txt lh-3 text-white prata">Der
+																Brahms-Freund<br>Julius Otto
 																Grimm</span>
-															</span>
+														</span>
 													</div><!-- /.ld-fancy-heading -->
 
 												</div><!-- /.lqd-column col-md-12 text-center -->
@@ -186,7 +187,10 @@
 											<a href="#about"
 												class="btn btn-default btn-naked border-thin font-size-16 font-weight-bold text-uppercase ltr-sp-05"
 												data-custom-animations="true"
-												data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"5000","startDelay": "1000", "delay":"150","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":105,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
+												data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"5000","startDelay": "1000", "delay":"150","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":105,"opacity":0},"animations":{"translateY":0,"opacity":1}}'
+												data-parallax="true" data-parallax-from='{"translateY":0}'
+												data-parallax-to='{"translateY":-100}'
+												data-parallax-options='{"easing":"easeOutQuart", "overflowHidden": false}'>
 												<div>
 													<span class="btn-txt">Mehr</span><br>
 													<span class="btn-icon"><i class="fa fa-angle-down"></i></span>
@@ -202,11 +206,18 @@
 			</section>
 			<section class="vc_row bg-cover justify-content-center bg-black" data-tooltip="About" id="about">
 				<div class="container">
-					<div class="row d-flex flex-wrap align-items-center">
+					<div class="row d-flex flex-wrap align-items-center justify-content-center">
 
-						<div class="lqd-column col-sm-auto col-md-2 col-lg-2 py-4 visible-sm visible-md visible-lg">
+						<div class="lqd-column col-sm-9 col-md-2 col-lg-4 py-4 visible-lg">
 
-							<div class="ld-fancy-heading mask-text">
+							<div Data-custom-animations="true"
+								data-ca-options='{"triggerHandler":"inview","animationTarget":"img","duration":"8000","startDelay":"600", "delay":"150","easing":"easeOutQuint","direction":"forward","initValues":{"opacity":0},"animations":{"opacity":1}}'>
+								<img class=""
+									src="https://res.cloudinary.com/dkommhyii/image/upload/t_Quality_50/v1651914667/Home_page-Grimm/side_description_zel4sb.png"
+									alt="" />
+							</div>
+
+							<!-- <div class="ld-fancy-heading mask-text">
 								<h2 class="" data-custom-animations="true"
 									data-ca-options='{"triggerHandler":"inview","animationTarget":".split-inner","duration":"1800","startDelay":"200","delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"translateY":150,"rotateZ":-5},"animations":{"translateY":0,"rotateZ":0}}'
 									data-split-text="true" data-split-options='{"type":"lines"}'>
@@ -222,11 +233,11 @@
 										</span>
 									</h2>
 								</h2>
-							</div><!-- /.ld-fancy-heading -->
+							</div>/.ld-fancy-heading -->
 
 						</div><!-- /.lqd-column col-lg-3 -->
 
-						<div class="lqd-column col-sm-auto col-md-auto col-lg-4 col-lg-offset-1 pb-3 visible-sm visible-md visible-lg"
+						<div class="lqd-column col-sm-auto col-md-auto col-lg-4 pb-3 visible-sm visible-md visible-lg py-7"
 							data-custom-animations="true"
 							data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1600","startDelay":"500","delay":"150","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":49,"rotateZ":5,"opacity":0},"animations":{"translateY":0,"rotateZ":0,"opacity":1}}'>
 
@@ -259,15 +270,17 @@
 
 						</div><!-- /.lqd-column col-md-4 -->
 
-						<div class="lqd-column col-sm-auto col-md-auto col-lg-4 pb-3 visible-sm visible-md visible-lg" data-custom-animations="true"
+						<div class="lqd-column col-sm-auto col-md-auto col-lg-4 pb-3 visible-sm visible-md visible-lg"
+							data-custom-animations="true"
 							data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1000","startDelay":"400","delay":"150","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":49,"rotateZ":5,"opacity":0},"animations":{"translateY":0,"rotateZ":0,"opacity":1}}'>
 							<div class="ld-fancy-heading mask-text">
 								<p data-split-text="true" data-split-options='{"type":"lines"}'
 									data-custom-animations="true"
 									data-ca-options='{"triggerHandler":"inview","animationTarget":".split-inner","duration":"1600","startDelay":"200","delay":"120","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":50,"rotateZ":5},"animations":{"translateY":0,"rotateZ":0}}'>
-									<span class="ld-fh-txt text-leggero"> Während seiner Zeit in Münster führte er
+									<span class="ld-fh-txt text-leggero">Während seiner Zeit in Münster führte er
 										zahlreiche
-										Kompositionen von Brahms auf und widmete ihm seine <i>Zweite Suite in Canonform</i> op.
+										Kompositionen von Brahms auf und widmete ihm seine <i>Zweite </i><i>Suite
+										</i><i>in </i><i>Canonform </i> op.
 										16. Gleichwohl war Grimm, der von
 										seinen Freunden liebevoll „Ise“ genannt wurde, eine Musikerpersönlichkeit mit
 										durchaus eigenem Profil. Und so möchte die
@@ -292,16 +305,18 @@
 
 					<div class="pt-30 accordion accordion-lg accordion-active-has-fill accordion-title-bordered accordion-title-circle accordion-expander-left visible-xs"
 						id="accordion-12" role="tablist">
-					
-						<div class="accordion-item panel active">
+
+						<div class="accordion-item panel">
 							<div class="accordion-heading" role="tab" id="accordion-12-heading-1">
 								<p class="accordion-title">
-									<a class="text-center" data-toggle="collapse" data-parent="#accordion-12" href="#accordion-12-panel-1"
-										aria-expanded="true" aria-controls="accordion-12-panel-1">
-										Die digitale Ausstellung möchte...
+									<a class="text-center" data-toggle="collapse" data-parent="#accordion-12"
+										href="#accordion-12-panel-1" aria-expanded="true"
+										aria-controls="accordion-12-panel-1">
+										<span class="accordion-title-text"
+										>Die digitale Ausstellung möchte...</span>
 										<span class="accordion-expander">
 											<i class="fa fa-angle-down"></i>
-											<i class="icon-arrows_circle_minus"></i>
+											<i class="fa fa-angle-up"></i>
 										</span>
 									</a>
 								</p>
@@ -309,7 +324,7 @@
 							<div id="accordion-12-panel-1" class="accordion-collapse collapse" role="tabpanel"
 								aria-labelledby="accordion-12-heading-1">
 								<div class="accordion-content text-leggero">
-									<p> anhand von
+									<p> Die digitale Ausstellung möchte anhand von
 										Briefen,
 										Fotografien, Musikhandschriften, Konzertprogrammen und zahlreichen
 										weiteren Objekten das wechselvolle Leben des Komponisten und Dirigenten Julius
@@ -329,9 +344,11 @@
 										„Oberbrahmser“.
 										Grimm, der aus dem livländischen Pernau stammte und am Leipziger Konservatorium
 										ausgebildet wurde, war im Jahre 1860
-										Mitunterzeichner der „Erklärung gegen die Neudeutschen“. Während seiner Zeit in Münster führte er
+										Mitunterzeichner der „Erklärung gegen die Neudeutschen“. Während seiner Zeit in
+										Münster führte er
 										zahlreiche
-										Kompositionen von Brahms auf und widmete ihm seine <i>Zweite Suite in Canonform</i> op.
+										Kompositionen von Brahms auf und widmete ihm seine <i>Zweite Suite in
+											Canonform</i> op.
 										16. Gleichwohl war Grimm, der von
 										seinen Freunden liebevoll „Ise“ genannt wurde, eine Musikerpersönlichkeit mit
 										durchaus eigenem Profil. Und so möchte die
@@ -351,14 +368,13 @@
 								</div><!-- /.accordion-content -->
 							</div><!-- /.collapse -->
 						</div><!-- /.accordion-item -->
-					
+
 					</div><!-- /.accordion -->
 
 				</div><!-- /.container -->
 			</section>
 
-			<section class="vc_row py-6 bg-cover bg-black" data-tooltip="Austellung"
-				id="Austellung">
+			<section class="vc_row py-6 bg-cover bg-black" data-tooltip="Austellung" id="Austellung">
 				<div class="container">
 					<div class="row">
 
@@ -378,9 +394,8 @@
 					</div><!-- /.row -->
 				</div><!-- /.container -->
 				<div class="row-carrousel">
-					<div class="row__inner"
-					data-custom-animations="true"
-					data-ca-options='{"triggerHandler":"inview","animationTarget":"img","duration":"10000","delay":"100","easing":"easeOutQuint","direction":"forward","initValues":{"scale":0.99,"opacity":0},"animations":{"scale":1,"opacity":1}}'>
+					<div class="row__inner" data-custom-animations="true"
+						data-ca-options='{"triggerHandler":"inview","animationTarget":"img","duration":"10000","delay":"100","easing":"easeOutQuint","direction":"forward","initValues":{"scale":0.99,"opacity":0},"animations":{"scale":1,"opacity":1}}'>
 
 						<div class="tile">
 							<div class="tile__media">
@@ -391,7 +406,7 @@
 							<a href="./austellung/Ein_bewegtes_Musikerleben.html" class="tile__details">
 								<div class="tile__title text-white">
 									<span
-										class="ld-fh-txt ld-fancy-heading mask-text text-uppercase font-weight-bold">Lebensstationen</span>
+										class="ld-fh-txt ld-fancy-heading mask-text text-uppercase font-weight-bold visible-sm visible-md visible-lg">Lebensstationen</span>
 								</div>
 							</a>
 						</div>
@@ -399,13 +414,12 @@
 						<div class="tile">
 							<div class="tile__media">
 								<img class="tile__img"
-									src="https://res.cloudinary.com/dkommhyii/image/upload/v1651741782/Home_page-Grimm/austellung/Raum_1_xngz0y.jpg"
+									src="https://res.cloudinary.com/dkommhyii/image/upload/t_Quality_50/v1651919553/6_Brahms/Raum_brahms_tvkpho.png"
 									alt="./austellung/Primo.html" />
 							</div>
 							<a href="./austellung/Ein_bewegtes_Musikerleben.html" class="tile__details">
 								<div class="tile__title text-white">
-									<span
-										class="ld-fh-txt ld-fancy-heading mask-text text-uppercase font-weight-bold">
+									<span class="ld-fh-txt ld-fancy-heading mask-text text-uppercase font-weight-bold">
 										Brahms</span>
 								</div>
 							</a>
@@ -420,7 +434,8 @@
 							<a href="./austellung/Grimm_in_Muenster.html" class="tile__details">
 								<div class="tile__title text-white">
 									<span
-										class="ld-fh-txt ld-fancy-heading mask-text text-uppercase font-weight-bold">Künstler Netzwerk</span>
+										class="ld-fh-txt ld-fancy-heading mask-text text-uppercase font-weight-bold">Künstler
+										Netzwerk</span>
 								</div>
 							</a>
 						</div>
@@ -434,7 +449,8 @@
 							<div class="tile__details">
 								<div class="tile__title text-white">
 									<span
-										class="ld-fh-txt ld-fancy-heading mask-text text-uppercase font-weight-bold">Der Komponist</span>
+										class="ld-fh-txt ld-fancy-heading mask-text text-uppercase font-weight-bold">Der
+										Komponist</span>
 								</div>
 							</div>
 						</div>
@@ -476,7 +492,8 @@
 							<a href="./austellung/Grimm_in_Muenster.html" class="tile__details">
 								<div class="tile__title text-white">
 									<span
-										class="ld-fh-txt ld-fancy-heading mask-text text-uppercase font-weight-bold">Historischer Stadtrundgang</span>
+										class="ld-fh-txt ld-fancy-heading mask-text text-uppercase font-weight-bold">Historischer
+										Stadtrundgang</span>
 								</div>
 							</a>
 						</div>
@@ -489,7 +506,7 @@
 
 			<section class="vc_row py-6 bg-cover justify-content-center bg-black px-1" data-tooltip="impressum">
 				<div class="container" id="impressum" data-custom-animations="true"
-					data-ca-options='{"triggerHandler":"inview","animationTarget":".bg-light","animateTargetsWhenVisible":"true","duration":"2700","startDelay":"800","delay":"100","easing":"easeOutQuint","initValues":{"scale":0.99,"opacity":0},"animations":{"scale":1,"opacity":1}}'>
+					data-ca-options='{"triggerHandler":"inview","animationTarget":".bg-light","animateTargetsWhenVisible":"true","duration":"2700","startDelay":"400","delay":"100","easing":"easeOutQuint","initValues":{"scale":0.99,"opacity":0},"animations":{"scale":1,"opacity":1}}'>
 					<div class="row d-flex flex-wrap align-items-center bg-light ld-pf-round py-6 px-4">
 
 						<div class="lqd-column col-lg-3 col-md-4 text-md-right pt-sm-4 py-2">
@@ -555,8 +572,8 @@
 						<div class="container">
 							<div class="">
 								<div class="row justify-content-md-center pt-3" data-custom-animations="true"
-										data-ca-options='{"triggerHandler":"inview","animationTarget":"img","duration":"9000","startDelay":"1200","delay":"160","easing":"easeOutQuint","direction":"forward","initValues":{"scale":0.98,"opacity":0},"animations":{"scale":1,"opacity":1}}'>
-									<div class="col-lg-3 col-md-3 col-sm-6" >
+									data-ca-options='{"triggerHandler":"inview","animationTarget":"img","duration":"9000","startDelay":"1200","delay":"160","easing":"easeOutQuint","direction":"forward","initValues":{"scale":0.98,"opacity":0},"animations":{"scale":1,"opacity":1}}'>
+									<div class="col-lg-3 col-md-3 col-sm-6">
 										<a href="https://www.uni-muenster.de/Foerderer/" target="_blank">
 											<img class="supporters-logo"
 												src="./assets/img/logo/supporters/PNG/Loghi-01.png"

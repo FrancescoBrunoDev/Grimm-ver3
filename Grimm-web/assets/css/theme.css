@@ -4399,6 +4399,7 @@ figure + .ld-cart-product-details {
 }
 .active .accordion-expander > i:last-child {
   display: inline-block;
+  
 }
 .active .accordion-expander > i:first-child {
   display: none;
@@ -4415,7 +4416,7 @@ figure + .ld-cart-product-details {
 }
 
 /* Accordion Styles */
-.accordion-active-has-fill .accordion-title a {
+.accordion-active-has-fill .active .accordion-title a {
   padding-left: 30px;
   padding-right: 60px;
   background-color: transparent;
@@ -4429,11 +4430,15 @@ figure + .ld-cart-product-details {
   padding-right: 30px;
 }
 .accordion-active-has-fill.accordion-title-bordered .active .accordion-title a, .accordion-active-has-fill.accordion-title-underlined .active .accordion-title a {
-  border-color: transparent;
+  border-color: white;
 }
-.accordion-active-has-fill .active .accordion-title a {
+.accordion-active-has-fill  .accordion-title a {
   background-color: var(--color-primary);
   color: rgb(0, 0, 0);
+}
+
+.accordion-active-has-fill .active .accordion-title a .accordion-title-text {
+  display: none;
 }
 
 .accordion-body-underlined .accordion-item {
@@ -4507,6 +4512,7 @@ figure + .ld-cart-product-details {
 .accordion-expander-left.accordion-body-bordered .accordion-expander, .accordion-expander-left.accordion-title-bordered .accordion-expander, .accordion-expander-left.accordion-active-has-fill .accordion-expander {
   left: 30px;
 }
+
 .accordion-expander-left.accordion-body-underlined .accordion-content {
   padding-left: 30px;
 }
@@ -4527,6 +4533,7 @@ figure + .ld-cart-product-details {
 .accordion-lg .accordion-title a {
   padding-top: 1.05em;
   padding-bottom: 1.05em;
+  height: 3.7em;
 }
 
 .accordion-expander-lg .accordion-expander {
@@ -27980,6 +27987,13 @@ body.search .no-results .search-form input[type=submit] {
   .page-has-frame .megamenu.megamenu-fullwidth .megamenu-container {
     width: calc( 100vw - 40px ) !important;
   }
+
+    .main-page {
+    height: 100vh;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* 7.3. Model Visualizer */
@@ -28000,7 +28014,7 @@ body.search .no-results .search-form input[type=submit] {
     margin-left: auto;
     margin-right: auto;
   }
-
+}
 .txt-rotate-keywords {
   display: inline-block !important;
   position: relative;
@@ -28030,7 +28044,7 @@ body.search .no-results .search-form input[type=submit] {
 @media screen and (max-width: 900px) {
   
   .title-vertical-center {
-    padding-top: 60% !important;
+    padding-top: 30vh !important;
   }
   .logo-default {
     height: 30px !important;
@@ -28040,7 +28054,8 @@ body.search .no-results .search-form input[type=submit] {
 @media screen and (min-width: 901px) {
   
   .title-vertical-center {
-    padding-top: 20% !important;
+    padding-top: 30vh !important;
+    padding-bottom: 30vh !important;
   }
   .logo-default {
     
