@@ -23493,7 +23493,7 @@ body.search .no-results .search-form input[type=submit] {
 }
 
 .bg-super-white {
-  background: white !important;
+  background: #FCFFFC !important;
 }
 
 .bg-black {
@@ -28117,12 +28117,6 @@ body.search .no-results .search-form input[type=submit] {
  object-fit: contain;
 }
 
-.rounded-15-collapse {
-  border-radius: 2.2rem !important;
-}
-
-.accordion-collapse {
-  top: -65px;
-  position: relative;
-  
+.rounded-15 {
+  border-radius: 2rem !important;
 }
