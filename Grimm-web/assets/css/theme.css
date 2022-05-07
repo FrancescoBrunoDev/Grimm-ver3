@@ -4418,7 +4418,7 @@ figure + .ld-cart-product-details {
 /* Accordion Styles */
 .accordion-active-has-fill .active .accordion-title a {
   padding-left: 30px;
-  padding-right: 60px;
+  padding-right: 30px;
   background-color: transparent;
   color: white;
 }
@@ -4432,7 +4432,7 @@ figure + .ld-cart-product-details {
 .accordion-active-has-fill.accordion-title-bordered .active .accordion-title a, .accordion-active-has-fill.accordion-title-underlined .active .accordion-title a {
   border-color: white;
 }
-.accordion-active-has-fill  .accordion-title a {
+.accordion-active-has-fill .accordion-title a {
   background-color: var(--color-primary);
   color: rgb(0, 0, 0);
 }
