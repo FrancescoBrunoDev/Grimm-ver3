@@ -5258,6 +5258,7 @@ http://flickity.metafizzy.co
 .fr-caption {
   width: auto;
   display: inline;
+  font-family: 'Glacial Indifference', sans-serif;
 }
 .fr-position {
   color: #b3b3b3;
@@ -6233,7 +6234,7 @@ http://flickity.metafizzy.co
   }
 }
 .fr-window-skin-fresco.fr-window-ui-outside .fr-close-background {
-  background-color: #363636;
+  background-color: #36363600;
 }
 .fr-window-skin-fresco.fr-window-ui-outside
   .fr-close:hover

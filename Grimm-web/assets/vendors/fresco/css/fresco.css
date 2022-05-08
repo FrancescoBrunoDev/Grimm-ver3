@@ -288,6 +288,7 @@ all and (orientation: landscape) and (max-height: 500px) {
 .fr-caption {
   width: auto;
   display: inline;
+  font-family: 'Glacial Indifference', sans-serif;
 }
 
 .fr-position {

@@ -37,7 +37,8 @@ body {
 }
 
 .prata {
-  font-family: 'DM Serif Display', serif !important;
+  font-family: 'Playfair Display', serif !important;
+  font-weight: 400;
 }
 
 .h1,
