@@ -86,23 +86,25 @@ a:hover {
   opacity: 0.3;
 }
 .row__inner:hover .tile:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
   opacity: 1;
 }
 .tile:hover ~ .tile {
-  transform: translate3d(125px, 0, 0);
+  transform: translate3d(25px, 0, 0);
 }
 
 @media screen and (max-width: 1200px) {
-.tile__details {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  font-size: 1em;
-  opacity: 0;
-  background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
-  transition: 450ms opacity;
+  .tile__img {
+opacity: 0.6 !important;
+background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
 }
-  }
+
+  .tile__details {
+  position: relative;
+  font-size: 1em;
+  opacity: 1;
+  background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%); 
+  max-width: 250px !important;
+  line-break: normal;
+}
+}
