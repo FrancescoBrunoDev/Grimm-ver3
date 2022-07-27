@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'regatto';
+    src: url('../../fonts/RegattoBold-lgVM0.ttf') format('truetype');
+}
 
 :root {
   --color-primary: #ffffff;
@@ -33,11 +37,11 @@ body {
 .h2, h2,
 .h3, h3,
 .h4, h4 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'regatto', serif;
 }
 
 .prata {
-  font-family: 'Playfair Display', serif !important;
+  font-family: 'regatto', serif !important;
   font-weight: 400;
 }
 
