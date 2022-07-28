@@ -23901,6 +23901,20 @@ body.search .no-results .search-form input[type=submit] {
   background-attachment: fixed;
 }
 
+.bg-cover-der-Komponist {
+  background-position: center !important; 
+  background-repeat: no-repeat !important; 
+  background-size: 50% 50% !important;
+}
+
+@media (max-width: 992px) {
+  .bg-cover-der-Komponist {
+    background-position: center !important; 
+    background-repeat: no-repeat !important; 
+	  background-size: 95% 95% !important;
+		}
+  }
+
 .bg-cover {
   background-size: cover !important;
   background-position: center !important;
