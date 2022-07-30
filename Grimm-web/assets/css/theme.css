@@ -12156,8 +12156,8 @@ a.ui-button:active,
 }
 
 .model-viewer-busto {
-  height: 70vh;
-  width: 70vh;
+  height: 70vh !important;
+  width: 70vh !important;
 }
 
 .liquid-img-group-single {
@@ -23906,6 +23906,20 @@ body.search .no-results .search-form input[type=submit] {
   background-repeat: no-repeat !important; 
   background-size: 50% 50% !important;
 }
+
+.bg-cover-Brahms-Grimm {
+  background: url(../img/momentanee/Brahms.png) left bottom, url(../img/momentanee/Grimm.png) right bottom;
+  background-size: 80vh, 80vh !important; 
+  background-repeat: no-repeat !important; 
+}
+
+@media (max-width: 992px) {
+  .bg-cover-Brahms-Grimm {
+    background: url(../img/momentanee/Brahms-small.png) left bottom, url(../img/momentanee/Grimm-small.png) right bottom;
+    background-size: 70vh, 80vh !important; 
+    background-repeat: no-repeat !important;
+		}
+  }
 
 @media (max-width: 992px) {
   .bg-cover-der-Komponist {
