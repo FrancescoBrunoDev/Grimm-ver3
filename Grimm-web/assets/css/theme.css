@@ -23913,6 +23913,7 @@ body.search .no-results .search-form input[type=submit] {
   background-repeat: no-repeat !important; 
 }
 
+
 @media (max-width: 992px) {
   .bg-cover-Brahms-Grimm {
     background: url(../img/momentanee/Brahms-small.png) left bottom, url(../img/momentanee/Grimm-small.png) right bottom;
