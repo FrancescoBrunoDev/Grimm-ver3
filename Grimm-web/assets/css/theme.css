@@ -28072,7 +28072,7 @@ body.search .no-results .search-form input[type=submit] {
 @media screen and (max-width: 900px) {
   
   .title-vertical-center {
-    padding-top: 30vh !important;
+    padding-top: 20vh !important;
   }
   .logo-default {
     height: 30px !important;
@@ -28082,8 +28082,8 @@ body.search .no-results .search-form input[type=submit] {
 @media screen and (min-width: 901px) {
   
   .title-vertical-center {
-    padding-top: 30vh !important;
-    padding-bottom: 30vh !important;
+    padding-top: 20vh !important;
+    padding-bottom: auto !important;
   }
   .logo-default {
     
@@ -28093,7 +28093,7 @@ body.search .no-results .search-form input[type=submit] {
 @media screen and (min-width: 1200px) {
   
   .title-vertical-center {
-    padding-top: auto !important;
+    padding-top: 30vh !important;
     padding-bottom: auto;
   }
 
