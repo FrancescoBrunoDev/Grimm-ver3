@@ -23904,11 +23904,11 @@ body.search .no-results .search-form input[type=submit] {
 .bg-cover-der-Komponist {
   background-position: center !important; 
   background-repeat: no-repeat !important; 
-  background-size: 50% 50% !important;
+  background-size: 60vw !important;
 }
 
 .bg-cover-Brahms-Grimm {
-  background: url(../img/momentanee/Brahms.png) left bottom, url(../img/momentanee/Grimm.png) right bottom;
+  background: url(https://uni-muenster.sciebo.de/s/9Yjd8zx45zXNHbP/download?path=%2Fhero-section&files=Brahms.png) left bottom, url(https://uni-muenster.sciebo.de/s/9Yjd8zx45zXNHbP/download?path=%2Fhero-section&files=Grimm.png) right bottom;
   background-size: 80vh, 80vh !important; 
   background-repeat: no-repeat !important; 
 }
@@ -23916,7 +23916,7 @@ body.search .no-results .search-form input[type=submit] {
 
 @media (max-width: 992px) {
   .bg-cover-Brahms-Grimm {
-    background: url(../img/momentanee/Brahms-small.png) left bottom, url(../img/momentanee/Grimm-small.png) right bottom;
+    background: url(https://uni-muenster.sciebo.de/s/9Yjd8zx45zXNHbP/download?path=%2Fhero-section&files=Brahms-small.png) left bottom, url(https://uni-muenster.sciebo.de/s/9Yjd8zx45zXNHbP/download?path=%2Fhero-section&files=Grimm-small.png) right bottom;
     background-size: 70vh, 80vh !important; 
     background-repeat: no-repeat !important;
 		}
@@ -23926,7 +23926,7 @@ body.search .no-results .search-form input[type=submit] {
   .bg-cover-der-Komponist {
     background-position: center !important; 
     background-repeat: no-repeat !important; 
-	  background-size: 95% 95% !important;
+	  background-size: 90vw !important;
 		}
   }
 
