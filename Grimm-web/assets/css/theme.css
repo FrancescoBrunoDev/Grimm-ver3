@@ -378,6 +378,16 @@ figcaption {
 /*
 	Typography
 */
+
+.hyphens {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
 p {
   margin-bottom: 1.3em;
   font-size: 18px;
@@ -4368,7 +4378,7 @@ figure + .ld-cart-product-details {
 
 /* 3.3. Accordions */
 .accordion {
-  margin-bottom: 2em;
+  margin-bottom: 0em;
 }
 
 .accordion-title {
@@ -4411,6 +4421,8 @@ figure + .ld-cart-product-details {
   padding: 1em 0;
   text-align: justify;
   text-justify: inter-character;
+  background-color: transparent;
+
 }
 .accordion-content > :last-child,
 .accordion-content > :only-child {
@@ -4473,7 +4485,7 @@ figure + .ld-cart-product-details {
 }
 
 .accordion-title-bordered .accordion-item {
-  margin-bottom: 1.25em;
+  margin-bottom: 1em;
 }
 .accordion-title-bordered .accordion-title a {
   padding-left: 30px;
