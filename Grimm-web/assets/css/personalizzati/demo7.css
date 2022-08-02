@@ -124,7 +124,20 @@
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
 	text-fill-color: transparent;
+	font-weight: normal;
 }
+.tooltip__content_big span {
+	display: block;
+	background: white;
+	background-size: cover;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+	font-weight: normal;
+}
+
+
 
 .iconbutton--border {
 	padding: 1rem 3.5rem;
@@ -306,4 +319,8 @@
 
 .bg-img-small {
 	max-width: 70%;
+}
+
+.pt-img {
+	padding-top: 2em;
 }
