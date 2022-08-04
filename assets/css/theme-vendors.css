@@ -11262,7 +11262,7 @@ textarea.form-control-lg {
   }
 }
 
-/*# sourceMappingURL=bootstrap.css.map */
+/*# sourceMappingURL=../vendors/bootstrap/css/bootstrap.css.map */
 
 /*! jQuery UI - v1.12.1 - 2018-01-16
 * http://jqueryui.com
@@ -12847,7 +12847,7 @@ http://flickity.metafizzy.co
   height: 100%;
 }
 .fr-content-background {
-  background: #101010;
+  background: black;
 }
 .fr-info {
   position: absolute;
