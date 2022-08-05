@@ -23926,10 +23926,15 @@ body.search .no-results .search-form input[type=submit] {
   background-size: 80vh, 80vh !important; 
   background-repeat: no-repeat !important; 
 }
+.bg-cover-Grimm-Netzwerk {
+  background: url(https://uni-muenster.sciebo.de/s/KFRvzXSFth0zb1C/download?path=%2Fhero-section&files=Grimm-Netzwerk.png) right center;
+  background-size: 60vh !important; 
+  background-repeat: no-repeat !important; 
+}
 
 
 @media (max-width: 992px) {
-  .bg-cover-Brahms-Grimm {
+  .bg-cover-Brahms-Grimm { 
     background: url(https://uni-muenster.sciebo.de/s/9Yjd8zx45zXNHbP/download?path=%2Fhero-section&files=Brahms-small.png) left bottom, url(https://uni-muenster.sciebo.de/s/9Yjd8zx45zXNHbP/download?path=%2Fhero-section&files=Grimm-small.png) right bottom;
     background-size: 70vh, 80vh !important; 
     background-repeat: no-repeat !important;
