@@ -23939,6 +23939,11 @@ body.search .no-results .search-form input[type=submit] {
     background-size: 70vh, 80vh !important; 
     background-repeat: no-repeat !important;
 		}
+  .bg-cover-Grimm-Netzwerk {
+  background: url(https://uni-muenster.sciebo.de/s/KFRvzXSFth0zb1C/download?path=%2Fhero-section&files=Grimm-Netzwerk_opaco.png) right center;
+  background-size: 60vh !important; 
+  background-repeat: no-repeat !important; 
+}
   }
 
 @media (max-width: 992px) {
