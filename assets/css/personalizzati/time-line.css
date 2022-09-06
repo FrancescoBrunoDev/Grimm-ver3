@@ -59,3 +59,6 @@
     border-image: linear-gradient(to bottom, rgb(255, 255, 255) 60%, transparent) 1 100%;
 }
 
+.text-shadow-komponist {
+    text-shadow: 10px 5px 10px black;
+}

@@ -23916,9 +23916,9 @@ body.search .no-results .search-form input[type=submit] {
 }
 
 .bg-cover-der-Komponist {
-  background-position: center !important; 
+  background: url(https://uni-muenster.sciebo.de/s/5ezWQ9tB9bo36S0/download?path=%2F&files=Grimm_am_Klavier.png) right center; 
+  background-size: 90vh !important; 
   background-repeat: no-repeat !important; 
-  background-size: 60vw !important;
 }
 
 .bg-cover-Brahms-Grimm {
@@ -23926,6 +23926,7 @@ body.search .no-results .search-form input[type=submit] {
   background-size: 80vh, 80vh !important; 
   background-repeat: no-repeat !important; 
 }
+
 .bg-cover-Grimm-Netzwerk {
   background: url(https://uni-muenster.sciebo.de/s/KFRvzXSFth0zb1C/download?path=%2Fhero-section&files=Grimm-Netzwerk.png) right center;
   background-size: 50vh !important; 
@@ -23943,16 +23944,13 @@ body.search .no-results .search-form input[type=submit] {
   background: url(https://uni-muenster.sciebo.de/s/KFRvzXSFth0zb1C/download?path=%2Fhero-section&files=Grimm-Netzwerk_opaco.png) right center;
   background-size: 60vh !important; 
   background-repeat: no-repeat !important; 
-}
   }
-
-@media (max-width: 992px) {
   .bg-cover-der-Komponist {
-    background-position: center !important; 
-    background-repeat: no-repeat !important; 
-	  background-size: 90vw !important;
-		}
+  background: url(https://uni-muenster.sciebo.de/s/5ezWQ9tB9bo36S0/download?path=%2F&files=Grimm_am_Klavier.png) right center;
+  background-size: 60vh !important; 
+  background-repeat: no-repeat !important; 
   }
+}
 
 .bg-cover {
   background-size: cover !important;
