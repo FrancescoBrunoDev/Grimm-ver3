@@ -27,13 +27,14 @@ div.white-player-top {
       text-align: center; }
   div.white-player-top span.now-playing {
     color: #414344;
-    ont-family: 'Glacial Indifference', sans-serif;
+    font-family: 'Glacial Indifference', sans-serif;
     line-height: 64px;
     font-weight: 600; }
   div.white-player-top img.show-playlist {
     float: right;
     cursor: pointer;
     margin-right: 10px; }
+
 
 div#white-player-center img.main-album-art {
   display: block;
@@ -258,7 +259,7 @@ div#white-player-center div.time-progress {
 
 div#white-player-controls {
   text-align: center;
-  padding-bottom: 35px; }
+  padding-bottom: 10px; }
   div#white-player-controls div#previous {
     display: inline-block;
     height: 53px;
@@ -475,7 +476,7 @@ body {
   background-color: #010101;}
   body div.example-container {
     width: 500px;
-    height: 250px;
+    height: 220px;
     display: flex; }
     body div.example-container div.left {
       width: 100%; }
