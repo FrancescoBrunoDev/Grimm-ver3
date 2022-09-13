@@ -23957,6 +23957,10 @@ body.search .no-results .search-form input[type=submit] {
   background-position: center !important;
 }
 
+.bg-cover-100vh {
+height: 100vh;
+}
+
 .bg-contain {
   background-size: contain !important;
 }
