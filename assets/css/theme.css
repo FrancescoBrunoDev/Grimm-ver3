@@ -4424,6 +4424,7 @@ figure + .ld-cart-product-details {
   background-color: transparent;
 
 }
+
 .accordion-content > :last-child,
 .accordion-content > :only-child {
   margin-bottom: 0;
@@ -23951,6 +23952,7 @@ body.search .no-results .search-form input[type=submit] {
   background-repeat: no-repeat !important; 
   }
 }
+
 
 .bg-cover {
   background-size: cover !important;

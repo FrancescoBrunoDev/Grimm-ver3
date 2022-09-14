@@ -62,3 +62,26 @@
 .text-shadow-komponist {
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.754);
 }
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-box-img {
+  padding: 16px !important;
+  margin-bottom: 0px !important;
+}
+
+.border-white {
+  border-color: white !important;
+  border-width: 10px !important;
+}
+
+.more-info {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.border-white:hover + .more-info {
+  	opacity: 1;
+}
