@@ -72,16 +72,11 @@
   margin-bottom: 0px !important;
 }
 
-.border-white {
-  border-color: white !important;
-  border-width: 10px !important;
-}
-
 .more-info {
-    opacity: 0;
+    opacity: 0.2;
     transition: opacity 0.5s;
 }
 
-.border-white:hover + .more-info {
+.with-more-info:hover + .more-info {
   	opacity: 1;
 }
