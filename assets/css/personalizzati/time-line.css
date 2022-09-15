@@ -73,10 +73,13 @@
 }
 
 .more-info {
-    opacity: 0.2;
-    transition: opacity 0.5s;
+  opacity: 0.2;
+  transition: opacity 500ms;
+  transition-delay: 50ms;
 }
 
 .with-more-info:hover + .more-info {
-  	opacity: 1;
+  opacity: 1;
+  transition: opacity 500ms;
+  transition-delay: 0ms;
 }

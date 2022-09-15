@@ -2,7 +2,7 @@
 Amplitude.init({
   songs: [
     {
-      name: "Violin Sonata, Op.14 - Allegro con Brio",
+      name: "Op. 18, Nr. 1 - Es kommen die Tage",
       artist: "Julius Otto Grimm",
       album: "We Are to Answer",
       url: "https://uni-muenster.sciebo.de/s/GPIyOep8TAl9nAR/download?path=%2FViolin_Sonata&files=Grimm-Violin-Sonata-001.mp3",
@@ -10,7 +10,7 @@ Amplitude.init({
         "https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg",
     },
     {
-      name: "Violin Sonata, Op.14 - Adagio cantabile",
+      name: "Op. 3, Nr. 3 - Gebet auf dem Wasser",
       artist: "Julius Otto Grimm",
       album: "Ask The Dust",
       url: "https://uni-muenster.sciebo.de/s/GPIyOep8TAl9nAR/download?path=%2FViolin_Sonata&files=Grimm-Violin-Sonata-002.mp3",
@@ -18,7 +18,15 @@ Amplitude.init({
         "https://521dimensions.com/img/open-source/amplitudejs/album-art/ask-the-dust.jpg",
     },
     {
-      name: "Violin Sonata, Op.14 - Allegro",
+      name: "Op. 18, Nr. 3 - Dämm'rung senkte sich von oben",
+      artist: "Julius Otto Grimm",
+      album: "Anvil",
+      url: "https://uni-muenster.sciebo.de/s/GPIyOep8TAl9nAR/download?path=%2FViolin_Sonata&files=Grimm-Violin-Sonata-003.mp3",
+      cover_art_url:
+        "https://521dimensions.com/img/open-source/amplitudejs/album-art/anvil.jpg",
+    },
+    {
+      name: "Op. 1, Nr. 3 - Am See",
       artist: "Julius Otto Grimm",
       album: "Anvil",
       url: "https://uni-muenster.sciebo.de/s/GPIyOep8TAl9nAR/download?path=%2FViolin_Sonata&files=Grimm-Violin-Sonata-003.mp3",
