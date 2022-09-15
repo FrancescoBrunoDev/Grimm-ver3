@@ -265,7 +265,7 @@ div#white-player-controls {
     height: 53px;
     width: 53px;
     cursor: pointer;
-    background: url("/assets/img/icon/skip_previous_FILL1_wght700_GRAD0_opsz48.svg") no-repeat center;
+    background: url("../../img/icon/skip_previous_FILL1_wght700_GRAD0_opsz48.svg") no-repeat center;
     vertical-align: middle;
     margin-right: auto; }
   div#white-player-controls div#play-pause {
@@ -276,15 +276,15 @@ div#white-player-controls {
     vertical-align: middle;
     margin-right: auto; }
     div#white-player-controls div#play-pause.amplitude-paused {
-      background: url("/assets/img/icon/play_arrow_FILL1_wght700_GRAD0_opsz48.svg") no-repeat center; }
+      background: url("../../img/icon/play_arrow_FILL1_wght700_GRAD0_opsz48.svg") no-repeat center; }
     div#white-player-controls div#play-pause.amplitude-playing {
-      background: url("/assets/img/icon/pause_FILL1_wght700_GRAD200_opsz40.svg") no-repeat center; }
+      background: url("../../img/icon/pause_FILL1_wght700_GRAD200_opsz40.svg") no-repeat center; }
   div#white-player-controls div#next {
     display: inline-block;
     height: 53px;
     width: 53px;
     cursor: pointer;
-    background: url("/assets/img/icon/skip_next_FILL1_wght700_GRAD0_opsz48.svg") no-repeat center;
+    background: url("../../img/icon/skip_next_FILL1_wght700_GRAD0_opsz48.svg") no-repeat center;
     vertical-align: middle;
     margin-right: auto; }
 
