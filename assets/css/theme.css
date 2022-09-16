@@ -28192,3 +28192,7 @@ height: 100vh;
 .rounded-15 {
   border-radius: 2rem !important;
 }
+
+.text-justify {
+  text-align: justify !important;
+}
