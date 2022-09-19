@@ -1,15 +1,4 @@
-a:link,
-a:hover,
-a:active,
-a:visited {
-  transition: color 150ms;
-  color: #95a5a6;
-  text-decoration: none;
-}
-a:hover {
-  color: #7f8c8d;
-  text-decoration: underline;
-}
+
 .contain {
   width: 100%;
 }
@@ -148,4 +137,22 @@ a:hover {
   -ms-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.lqd-mehr {
+  color: white !important;
+  position: absolute;
+  bottom: 1%;
+  z-index: 10;
+  text-decoration: none!important;
+  opacity: 0.5!important;
+  text-transform: uppercase;
+  font-weight: 600!important;
+  cursor: pointer;
+  font-size: 1rem!important;
+}
+.lqd-mehr:hover {
+  color: white !important;
+  opacity: 1!important;
+  text-decoration: none!important;
 }

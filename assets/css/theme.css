@@ -3176,15 +3176,6 @@ figure + .ld-cart-product-details {
           transition-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-.lqd-mehr {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 1%;
-  z-index: 10;
-}
-
-
 .lqd-stack-extra-content > * {
   margin: 0;
   color: inherit;
@@ -28208,3 +28199,45 @@ height: 100vh;
     background: black;
     z-index: -1;
 }
+
+.my-signature {
+  margin-bottom: 0.7em;
+  font-size: 9px;
+    padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  border-radius: 6px;
+  color: #FCFFFC !important;
+transition: all 0.2s ease-in-out !important;
+}
+
+.my-signature:hover {
+  background-color: white;
+  margin-bottom: 0.7em;
+  color: black !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.signature-black {
+  display: none;
+  transition: all 0.1s ease-in-out !important;
+}
+.signature-white {
+  transition: all 0.1s ease-in-out !important;
+}
+
+.my-signature:hover .signature-white {
+  display: none;
+}
+
+.my-signature:hover .signature-black {
+  display: inline;
+}
+
+.no-decoration {
+  text-decoration: none!important;
+}
+
