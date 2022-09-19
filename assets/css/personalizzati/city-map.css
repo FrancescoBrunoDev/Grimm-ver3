@@ -126,6 +126,7 @@
 	text-fill-color: transparent;
 	font-weight: normal;
 }
+
 .tooltip__content_big span {
 	display: block;
 	background: white;
@@ -137,6 +138,7 @@
 	font-weight: normal;
 	z-index: 5;
 }
+
 
 .iconbutton--border {
 	padding: 1rem 3.5rem;
@@ -216,10 +218,10 @@
 }
 
 .tooltip__content_big {
-	position: absolute;
+	position: fixed;
 	bottom: calc(100% + 0.3rem);
 	font-size: 0.85rem;
-	width: 460px;
+	width: 100vh;
 	left: 50%;
 	line-height: 1.4;
 	margin-left: -230px;
@@ -229,9 +231,9 @@
 	text-align: justify;
 	pointer-events: none;
 	opacity: 0;
-	transform: translate3d(0,30px,0);
+
 	transition: all 0.3s cubic-bezier(0.1,1,0.9,1);
-	transition-property: opacity, transform;
+	transition-property: opacity;
 	background-color: rgba(0, 0, 0, 0.5);
 	-webkit-backdrop-filter: blur(4px);
 	backdrop-filter: blur(4px);
