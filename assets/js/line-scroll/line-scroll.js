@@ -1,24 +1,41 @@
-// DEFINITION UNSERER ELEMENTE
-const SVGLOGO = document.getElementById('logo');
+// Get a reference to the <path>
+var path = document.querySelector("#svg-path");
 
-// DEFINITION VON VARIABLEN
-const LOGOLENGTH = SVGLOGO.getTotalLength();
+// Get length of path... ~577px in this case
+var pathLength = path.getTotalLength();
 
-// GRUNDLEGENDES SETTING
-SVGLOGO.style.strokeDasharray = LOGOLENGTH;
-SVGLOGO.style.strokeDashoffset = LOGOLENGTH;
+// Make very long dashes (the length of the path itself)
+path.style.strokeDasharray = pathLength + " " + pathLength;
 
-// ZEICHNEN UNSERES SVG GRAFEN
-const drawWhenScroll = () => {
-    const DRAWLOGO = LOGOLENGTH * calcScrollPercent();
-    SVGLOGO.style.strokeDashoffset = LOGOLENGTH - DRAWLOGO;
-}
+// Offset the dashes so the it appears hidden entirely
+path.style.strokeDashoffset = pathLength;
 
-// FUNKTION UM EINEN % WERT DES SCROLLS ZU BERECHNEN
-const calcScrollPercent = () => {
-    let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    return document.documentElement.scrollTop / height;
-}
+// Jake Archibald says so
+// https://jakearchibald.com/2013/animated-line-drawing-svg/
+path.getBoundingClientRect();
 
-// FUNKTION FÜR DAS TRIGGERS DES SCROLL EVENTS
-window.addEventListener('scroll', drawWhenScroll);
+// When the page scrolls...
+window.addEventListener("scroll", function (e) {
+  // What % down is it?
+  // https://stackoverflow.com/questions/2387136/cross-browser-method-to-determine-vertical-scroll-percentage-in-javascript/2387222#2387222
+  // Had to try three or four differnet methods here. Kind of a cross-browser nightmare.
+  var scrollPercentage =
+    (document.documentElement.scrollTop + document.body.scrollTop) /
+    (document.documentElement.scrollHeight -
+      document.documentElement.clientHeight);
+
+  // Length to offset the dashes
+  var drawLength = pathLength * scrollPercentage;
+
+  // Draw in reverse
+  path.style.strokeDashoffset = pathLength - drawLength;
+
+  // When complete, remove the dash array, otherwise shape isn't quite sharp
+  // Accounts for fuzzy math
+  if (scrollPercentage >= 0.99) {
+    path.style.strokeDasharray = "none";
+  } else {
+    path.style.strokeDasharray = pathLength + " " + pathLength;
+  }
+});
+

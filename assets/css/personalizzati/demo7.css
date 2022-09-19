@@ -328,7 +328,7 @@
 		font-size: 1rem;
 	}
 	#circle_1 {
-    background: rgb(255, 103, 77);
+    background: red;
     border-radius: 50%;
     width: 15px;
     height: 15px;
