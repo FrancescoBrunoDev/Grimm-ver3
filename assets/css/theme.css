@@ -28201,9 +28201,10 @@ height: 100vh;
 }
 
 .my-signature {
-  margin-bottom: 0.7em;
+  position: absolute;
+  bottom: 0.7em;
   font-size: 9px;
-    padding-left: 0.7rem;
+  padding-left: 0.7rem;
   padding-right: 0.7rem;
   border-radius: 6px;
   color: #FCFFFC !important;
