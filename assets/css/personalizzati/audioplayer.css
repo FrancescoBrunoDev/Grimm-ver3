@@ -473,10 +473,11 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: 'Glacial Indifference', sans-serif;
   line-height: 1.5; 
-  background-color: #010101;}
-  body div.example-container {
+  background-color: #010101;
     width: 500px;
-    height: 220px;
+    height: 220px;}
+  body div.example-container {
+
     display: flex; }
     body div.example-container div.left {
       width: 100%; }
