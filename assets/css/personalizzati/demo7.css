@@ -258,7 +258,7 @@
 	animation-timing-function: ease;
 }
 #circle_1 {
-    background: rgb(255, 103, 77);
+    background: red;
     border-radius: 50%;
     width: 30px;
     height: 30px;
