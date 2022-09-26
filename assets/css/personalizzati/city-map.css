@@ -66,3 +66,13 @@ height: 250vh;
     height: 78.5px
   }  
 }
+
+.no-scrollball {
+    -ms-overflow-style: none !important; /* for Internet Explorer, Edge */
+    scrollbar-width: none !important; /* for Firefox */
+    overflow-y: scroll !important; 
+}
+
+.no-scrollball::-webkit-scrollbar {
+  display: none !important; /* for Chrome, Safari, and Opera */
+}
