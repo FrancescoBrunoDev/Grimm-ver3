@@ -1146,6 +1146,7 @@ small,
           align-items: inherit;
   -webkit-box-pack: inherit;
           justify-content: inherit;
+  text-decoration: none;
 }
 .nav-trigger .bars {
   display: -webkit-box;
@@ -1909,6 +1910,7 @@ figure + .ld-cart-product-details {
 }
 .main-nav .link-txt {
   position: relative;
+  text-decoration: none;
 }
 .main-nav .link-txt .txt {
   position: relative;
@@ -23914,7 +23916,7 @@ body.search .no-results .search-form input[type=submit] {
 }
 
 .bg-cover-Brahms-Grimm {
-  background: url(https://uni-muenster.sciebo.de/s/9Yjd8zx45zXNHbP/download?path=%2Fhero-section&files=Brahms.png) left bottom, url(https://uni-muenster.sciebo.de/s/9Yjd8zx45zXNHbP/download?path=%2Fhero-section&files=Grimm.png) right bottom;
+  background: url(https://uni-muenster.sciebo.de/s/9Yjd8zx45zXNHbP/download?path=%2Fhero-section&files=Brahms-2.png) left bottom, url(https://uni-muenster.sciebo.de/s/9Yjd8zx45zXNHbP/download?path=%2Fhero-section&files=Grimm.png) right bottom;
   background-size: 80vh, 80vh !important; 
   background-repeat: no-repeat !important; 
 }
@@ -23928,7 +23930,7 @@ body.search .no-results .search-form input[type=submit] {
 
 @media (max-width: 992px) {
   .bg-cover-Brahms-Grimm { 
-    background: url(https://uni-muenster.sciebo.de/s/9Yjd8zx45zXNHbP/download?path=%2Fhero-section&files=Brahms-small.png) left bottom, url(https://uni-muenster.sciebo.de/s/9Yjd8zx45zXNHbP/download?path=%2Fhero-section&files=Grimm-small.png) right bottom;
+    background: url(https://uni-muenster.sciebo.de/s/9Yjd8zx45zXNHbP/download?path=%2Fhero-section&files=Brahms-small-2.png) left bottom, url(https://uni-muenster.sciebo.de/s/9Yjd8zx45zXNHbP/download?path=%2Fhero-section&files=Grimm-small.png) right bottom;
     background-size: 70vh, 80vh !important; 
     background-repeat: no-repeat !important;
 		}
