@@ -12168,6 +12168,13 @@ a.ui-button:active,
   width: 70vh !important;
 }
 
+@media(max-width: 768px) {
+.model-viewer-busto {
+  max-height: 80vw !important;
+  max-width: 80vw !important;
+}
+}
+
 .liquid-img-group-single {
   display: block;
   position: relative;
