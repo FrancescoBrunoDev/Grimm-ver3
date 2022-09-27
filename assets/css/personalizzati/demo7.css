@@ -302,8 +302,8 @@
 #circle_1 {
     background: red;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 	box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.25);
 	animation-name: circle-awaiting_1;
   	animation-duration: 4s;
@@ -397,8 +397,8 @@
 @keyframes circle-hover_1 {
   from {
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
 	box-shadow: 8px 8px 8px 4px rgba(0, 0, 0, 0.25);
   }
   to { background-color: rgba(255, 0, 0, 0.5);
