@@ -58,7 +58,7 @@ height: 250vh;
   background-size: auto;
   background-repeat: repeat no-repeat;
   background-position: 14vw bottom;
-  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200 80' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 0C22.4434 -1 28.9842 1 55 14C94.1849 32 121.997 34 158.5 34C198.5 36 200 26 240 31C280 35 320 53 360 53C400 53 440 35 480 32C520 29 560 41 600 50C640 59 680 65 720 68C760 71 800 71 840 62C880 53 920 35 960 37C1000 38 1040 59 1080 56C1120 53 1127.5 35 1147.5 22C1171.48 7 1185.65 0 1200 0V80H1180C1160 80 1120 80 1080 80C1040 80 1000 80 960 80C920 80 880 80 840 80C800 80 760 80 720 80C680 80 640 80 600 80C560 80 520 80 480 80C440 80 400 80 360 80C320 80 280 80 240 80C200 80 160 80 120 80C80 80 40 80 20 80H0V0.0103865Z' fill='%23000000'/></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200 80' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 0C22.4434 -1 28.9842 1 55 14C94.1849 32 121.997 34 158.5 34C198.5 36 200 26 240 31C280 35 320 53 360 53C400 53 440 35 480 32C520 29 560 41 600 50C640 59 680 65 720 68C760 71 800 71 840 62C880 53 920 35 960 37C1000 38 1040 59 1080 56C1120 53 1127.5 35 1147.5 22C1171.48 7 1185.65 0 1200 0V80H1180C1160 80 1120 80 1080 80C1040 80 1000 80 960 80C920 80 880 80 840 80C800 80 760 80 720 80C680 80 640 80 600 80C560 80 520 80 480 80C440 80 400 80 360 80C320 80 280 80 240 80C200 80 160 80 120 80C80 80 40 80 20 80H0V0.0103865Z' fill='rgba(0, 0, 0, 0.8)'/></svg>");
 }
 
 @media(max-width:850px) {
@@ -84,11 +84,21 @@ height: 250vh;
 .text-city-map {
   padding: 80px;
   border-radius: 10px;
-  background-color: rgba(255, 1, 1, 0.9);
+  background-color: rgba(0, 0, 0, 0.8);
 	-webkit-backdrop-filter: blur(6px);
 	backdrop-filter: blur(6px);
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.bg-black-trasparent {
+  background-color: rgba(0, 0, 0, 0.8);
+	-webkit-backdrop-filter: blur(6px);
+	backdrop-filter: blur(6px);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .text-right {
