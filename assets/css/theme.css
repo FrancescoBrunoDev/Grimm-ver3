@@ -12170,7 +12170,7 @@ a.ui-button:active,
 
 @media(max-width: 768px) {
 .model-viewer-busto {
-  max-height: 80vw !important;
+  max-height: 80vh !important;
   max-width: 80vw !important;
 }
 }
