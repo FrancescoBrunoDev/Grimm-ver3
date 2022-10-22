@@ -28254,3 +28254,33 @@ transition: all 0.2s ease-in-out !important;
 .no-margin {
   margin: 0px!important;
 }
+
+.abbildungnachweise {
+  font-size: 1rem;
+  background-color: black;
+  color: white !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  text-decoration: none;
+transition: all 0.2s ease-in-out !important;
+}
+
+.abbildungnachweise:hover {
+  background-color: white;
+  color: black !important;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.text-impressunm {
+  font-size: 1rem;
+}
