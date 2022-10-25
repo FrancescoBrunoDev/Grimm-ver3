@@ -137,6 +137,18 @@
 	font-weight: normal;
 	z-index: 5;
 }
+
+.title-tooltip {
+	display: block;
+	background: white;
+	background-size: cover;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	font-weight: bold;
+	text-fill-color: transparent;
+	z-index: 5;
+}
 .tooltip__content_big-down span {
 	display: block;
 	background: white;
