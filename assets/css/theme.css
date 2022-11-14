@@ -28284,3 +28284,8 @@ transition: all 0.2s ease-in-out !important;
 .text-impressunm {
   font-size: 1rem;
 }
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
