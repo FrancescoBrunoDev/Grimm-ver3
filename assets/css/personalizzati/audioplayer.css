@@ -60,15 +60,21 @@ div#white-player-center img.main-album-art {
   border-radius: 8px;
   width: 280px;
   height: 280px; }
+
+div#white-player-center div.song-meta-data {
+  padding-left: 20px;
+  padding-top: 15px;
+  margin-bottom: 30px; }
+
 div#white-player-center div.song-meta-data span.song-name {
   color: #414344;
   display: block;
-  text-align: center;
+  text-align: left;
   font-size: 20px; }
 div#white-player-center div.song-meta-data span.song-artist {
   color: #AAAFB3;
   display: block;
-  text-align: center;
+  text-align: left;
   font-size: 14px; }
 div#white-player-center div.time-progress {
   margin-bottom: 30px; }
@@ -109,23 +115,23 @@ div#white-player-center div.time-progress {
       /* Needed for Firefox */ }
     @media all and (-ms-high-contrast: none) {
       div#white-player-center div.time-progress div#progress-container *::-ms-backdrop, div#white-player-center div.time-progress div#progress-container progress#song-played-progress {
-        color: #FA6733;
+        color: #000000;
         border: none;
         background-color: #E1E1E1; } }
     @supports (-ms-ime-align: auto) {
       div#white-player-center div.time-progress div#progress-container progress#song-played-progress {
-        color: #FA6733;
+        color: #000000;
         border: none; } }
     div#white-player-center div.time-progress div#progress-container progress#song-played-progress[value]::-webkit-progress-bar {
       background: none;
       border-radius: 5px; }
     div#white-player-center div.time-progress div#progress-container progress#song-played-progress[value]::-webkit-progress-value {
-      background-color: #FA6733;
+      background-color: #000000;
       border-radius: 5px; }
     div#white-player-center div.time-progress div#progress-container progress#song-played-progress::-moz-progress-bar {
       background: none;
       border-radius: 5px;
-      background-color: #FA6733;
+      background-color: #000000;
       height: 5px;
       margin-top: -2px; }
     div#white-player-center div.time-progress div#progress-container progress#song-buffered-progress {
@@ -186,34 +192,34 @@ div#white-player-center div.time-progress {
       width: 100%;
       height: 0px;
       cursor: pointer;
-      background: #FA6733;
+      background: #000000;
       border-radius: 0px;
       border: 0px solid #010101; }
     div#white-player-center div.time-progress div#progress-container input[type=range]::-webkit-slider-thumb {
-      border: 1px solid #FA6733;
+      border: 1px solid #000000;
       height: 15px;
       width: 15px;
       border-radius: 16px;
-      background: #FA6733;
+      background: #000000;
       cursor: pointer;
       -webkit-appearance: none;
       margin-top: -7.5px; }
     div#white-player-center div.time-progress div#progress-container input[type=range]:focus::-webkit-slider-runnable-track {
-      background: #FA6733; }
+      background: #000000; }
     div#white-player-center div.time-progress div#progress-container input[type=range]::-moz-range-track {
       width: 100%;
       height: 0px;
       cursor: pointer;
       box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
-      background: #FA6733;
+      background: #000000;
       border-radius: 0px;
       border: 0px solid #010101; }
     div#white-player-center div.time-progress div#progress-container input[type=range]::-moz-range-thumb {
-      border: 1px solid #FA6733;
+      border: 1px solid #000000;
       height: 15px;
       width: 15px;
       border-radius: 16px;
-      background: #FA6733;
+      background: #000000;
       cursor: pointer; }
     div#white-player-center div.time-progress div#progress-container input[type=range]::-ms-track {
       width: 100%;
@@ -227,15 +233,15 @@ div#white-player-center div.time-progress {
       border: 0px solid #010101;
       border-radius: 0px;}
     div#white-player-center div.time-progress div#progress-container input[type=range]::-ms-fill-upper {
-      background: #FA6733;
+      background: #000000;
       border: 0px solid #010101;
       border-radius: 0px;}
     div#white-player-center div.time-progress div#progress-container input[type=range]::-ms-thumb {
-      border: 1px solid #FA6733;
+      border: 1px solid #000000;
       height: 15px;
       width: 15px;
       border-radius: 16px;
-      background: #FA6733;
+      background: #000000;
       cursor: pointer;
       height: 0px;
       display: none; }
@@ -263,9 +269,9 @@ div#white-player-center div.time-progress {
         width: 15px;
         margin-top: 3px; } }
     div#white-player-center div.time-progress div#progress-container input[type=range]:focus::-ms-fill-lower {
-      background: #FA6733; }
+      background: #000000; }
     div#white-player-center div.time-progress div#progress-container input[type=range]:focus::-ms-fill-upper {
-      background: #FA6733; }
+      background: #000000; }
   div#white-player-center div.time-progress span.duration {
     color: #AAAFB3;
     font-size: 12px;
@@ -327,8 +333,8 @@ div.white-player-playlist-top {
       line-height: 64px;
       font-weight: 600; }
     div.white-player-playlist-top div img.close-playlist {
-      margin-right: 16px;
-      margin-top: 22px;
+      margin-right: 10px;
+      margin-top: 10px;
       float: right;
       cursor: pointer; }
 
@@ -339,9 +345,10 @@ div.white-player-up-next {
   color: #414344; }
 
 div.white-player-playlist {
-  margin-top: 32px;
-  height: calc( 100% - 234px );
-  overflow-y: scroll; }
+  margin-top: 20px;
+  height: 150px;
+  overflow-y: scroll; 
+}
 
 div.white-player-playlist-song {
   border-bottom: 1px solid #F5F5F6;
@@ -349,9 +356,11 @@ div.white-player-playlist-song {
   padding-bottom: 8px;
   cursor: pointer; }
   div.white-player-playlist-song:hover {
-    background-color: rgba(211, 94, 154, 0.3); }
+    background-color: rgba(173, 173, 173, 0.3); }
   div.white-player-playlist-song.amplitude-active-song-container {
-    background-color: rgba(238, 100, 82, 0.3); }
+    background-color: rgb(0, 0, 0); }
+  div.white-player-playlist-song.amplitude-active-song-container span {
+    color:white !important;}
   div.white-player-playlist-song img {
     width: 48px;
     height: 48px;
@@ -465,7 +474,7 @@ div.song-to-add {
     width: 100%; }
   div.song-to-add a.add-to-playlist-button {
     background-color: white;
-    color: #CC5CAD;
+    color: #000000;
     text-align: center;
     max-width: 150px;
     border-radius: 6px;
@@ -591,7 +600,7 @@ body div.example-container div.left {
 
 a.more-on-ssu{
   background-color: white;
-    color: #CC5CAD;
+    color: #000000;
     text-align: center;
     max-width: 300px;
     border-radius: 6px;
