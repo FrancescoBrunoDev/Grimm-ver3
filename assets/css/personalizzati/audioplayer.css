@@ -5,12 +5,28 @@
 /*
   2. Components
 */
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url("../fonts/GlacialIndifference-Regular.woff2") format("woff2"), url("../fonts/GlacialIndifference-Regular.woff") format("woff");
+  font-weight: normal;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url("../fonts/GlacialIndifference-Bold.woff2") format("woff2"), url("../fonts/GlacialIndifference-Bold.woff") format("woff");
+  font-weight: bold;
+  font-display: swap;
+  font-style: normal;
+}
+
 div#white-player {
   width: 100%;
   max-width: 500px;
   background-color: #FFFFFF;
   border-radius: 8px;
-  ont-family: 'Glacial Indifference', sans-serif;
+  font-family: 'Glacial Indifference', sans-serif;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
@@ -469,31 +485,30 @@ div.song-to-add {
 /*
   3. Layout
 */
+
+
+@media screen and (max-width: 992px) {
+  body div.example-container {
+    flex-direction: column; }
+    body div.example-container div.left {
+      width: 100%; }
+    body div.example-container div.right {
+      width: 100%; } 
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   font-family: 'Glacial Indifference', sans-serif;
   line-height: 1.5; 
   background-color: #010101;
-    width: 500px;
-    height: 220px;}
-  body div.example-container {
+}
+  
+body div.example-container {
+    display: flex;}
 
-    display: flex; }
-    body div.example-container div.left {
+body div.example-container div.left {
       width: 100%; }
 
-@media screen and (max-width: 992px) {
-  body div.example-container {
-    width: 400px;
-    height: 250px;
-    flex-direction: column; }
-    body div.example-container div.left {
-      width: 100%; }
-    body div.example-container div.right {
-      width: 100%; } }
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {
-  body div.right {
-    padding-left: 20px; } }
 /*
   4. Pages
 */

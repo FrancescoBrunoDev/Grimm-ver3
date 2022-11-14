@@ -23917,7 +23917,7 @@ body.search .no-results .search-form input[type=submit] {
 }
 
 .bg-cover-der-Komponist {
-  background: url(https://uni-muenster.sciebo.de/s/5ezWQ9tB9bo36S0/download?path=%2F&files=Grimm_am_Klavier.png) right center; 
+  background: url(https://uni-muenster.sciebo.de/s/5ezWQ9tB9bo36S0/download?path=%2F&files=Grimm_am_Klavier-small.jpeg) right center; 
   background-size: 90vh !important; 
   background-repeat: no-repeat !important; 
 }
@@ -23929,7 +23929,7 @@ body.search .no-results .search-form input[type=submit] {
 }
 
 .bg-cover-Grimm-Netzwerk {
-  background: url(https://uni-muenster.sciebo.de/s/KFRvzXSFth0zb1C/download?path=%2Fhero-section&files=Grimm-Netzwerk.png) right center;
+  background: url(https://uni-muenster.sciebo.de/s/KFRvzXSFth0zb1C/download?path=%2Fhero-section&files=Grimm-Netzwerk-small.png) right center;
   background-size: 50vh !important; 
   background-repeat: no-repeat !important; 
 }
@@ -23942,12 +23942,12 @@ body.search .no-results .search-form input[type=submit] {
     background-repeat: no-repeat !important;
 		}
   .bg-cover-Grimm-Netzwerk {
-  background: url(https://uni-muenster.sciebo.de/s/KFRvzXSFth0zb1C/download?path=%2Fhero-section&files=Grimm-Netzwerk_opaco.png) right center;
+  background: url(https://uni-muenster.sciebo.de/s/KFRvzXSFth0zb1C/download?path=%2Fhero-section&files=Grimm-Netzwerk-opaco-small.png) right center;
   background-size: 60vh !important; 
   background-repeat: no-repeat !important; 
   }
   .bg-cover-der-Komponist {
-  background: url(https://uni-muenster.sciebo.de/s/5ezWQ9tB9bo36S0/download?path=%2F&files=Grimm_am_Klavier.png) right center;
+  background: url(hhttps://uni-muenster.sciebo.de/s/5ezWQ9tB9bo36S0/download?path=%2F&files=Grimm_am_Klavier-small.jpeg) center center;
   background-size: 60vh !important; 
   background-repeat: no-repeat !important; 
   }
@@ -24572,6 +24572,9 @@ height: 100vh;
 .text-right {
   text-align: right !important;
 }
+
+
+
 .text-right div.wpb_single_image {
   text-align: inherit;
 }
@@ -24589,6 +24592,13 @@ height: 100vh;
 .text-center .liquid-counter-element {
   -webkit-box-pack: center;
           justify-content: center;
+}
+
+
+@media (max-width:992px) {
+  .text-sm-justify {
+    text-align: justify !important;
+  }
 }
 
 @media (min-width: 768px) {
