@@ -388,6 +388,18 @@ figcaption {
     hyphens: auto;
 }
 
+@media (min-width: 992px) {
+  
+.hyphens-responsive {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+}
+
 p {
   margin-bottom: 1.3em;
   font-size: 18px;
@@ -23943,7 +23955,7 @@ body.search .no-results .search-form input[type=submit] {
 		}
   .bg-cover-Grimm-Netzwerk {
   background: url(https://uni-muenster.sciebo.de/s/KFRvzXSFth0zb1C/download?path=%2Fhero-section&files=Grimm-Netzwerk-opaco-small.png) right center;
-  background-size: 60vh !important; 
+  background-size: 50vh !important; 
   background-repeat: no-repeat !important; 
   }
   .bg-cover-der-Komponist {
@@ -28069,7 +28081,12 @@ height: 100vh;
     display: none !important;
   }
 
-
+  .main-page {
+    height: 100vh;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .fa-arrow-right{
     color: white;
