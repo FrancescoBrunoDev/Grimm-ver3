@@ -4387,9 +4387,11 @@ figure + .ld-cart-product-details {
 }
 
 .accordion-title {
-  margin: 0;
+  margin: auto;
+  padding: 10px;
   position: relative;
   line-height: 1.5em;
+  max-width: 320px
 }
 .accordion-title a {
   display: block;
@@ -4445,10 +4447,20 @@ figure + .ld-cart-product-details {
 .accordion-active-has-fill .accordion-expander {
   right: 30px;
 }
+
 .accordion-active-has-fill .accordion-content {
   padding-left: 30px;
   padding-right: 30px;
 }
+
+@media (max-width: 992px) {
+  
+.accordion-active-has-fill .accordion-content {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+}
+
 .accordion-active-has-fill.accordion-title-bordered .active .accordion-title a, .accordion-active-has-fill.accordion-title-underlined .active .accordion-title a {
   border-color: white;
 }
