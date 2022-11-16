@@ -28069,12 +28069,7 @@ height: 100vh;
     display: none !important;
   }
 
-  .main-page {
-    height: 100vh;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+
 
   .fa-arrow-right{
     color: white;
