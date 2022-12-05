@@ -36,7 +36,7 @@
 <body class="lqd-stack-buttons-style-2 bg-black" data-mobile-nav-trigger-alignment="right" data-mobile-nav-align="left"
 	data-mobile-nav-style="modern" data-mobile-nav-scheme="dark" data-mobile-header-scheme="dark"
 	data-mobile-nav-breakpoint="1199" data-custom-animations="true"
-	data-ca-options='{"triggerHandler":"inview","animationTarget":".bg-cover-der-Komponist","duration":"4000","delay":"0","easing":"easeOutQuint","direction":"forward","initValues":{ "scaleX":1, "translateY":35,"opacity":0},"animations":{ "scaleX":1.02, "translateY":0,"opacity":1}}'
+	data-ca-options='{"triggerHandler":"inview","animationTarget":".bg-cover-der-Komponist","duration":"4000","delay":"0","easing":"easeOutQuint","direction":"forward","initValues":{ "scaleX":1, "translateY":35,"opacity":1},"animations":{ "scaleX":1.02, "translateY":0,"opacity":1}}'
 	data-split-options='{"type":"lines"}'>
 
 
@@ -159,7 +159,7 @@
 
 		<main id="content" class="row content bg-black">
 
-			<section class="bg-cover-der-Komponist" alt="Video einer 3D-Büste von Grimm">
+			<section class="bg-cover-der-Komponist" fetchpriority="VeryHigh" alt="">
 
 				<div class="container main-page">
 					<div class="title-vertical-center">
@@ -320,7 +320,7 @@
 								<div class="" data-custom-animations="true"
 									data-ca-options='{"triggerHandler":"inview","animationTarget":".audioplayer-iframe","duration":"1200","startDelay":"1500","delay":"180","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":30, "opacity":0},"animations":{"translateY":0,"opacity":1}}'>
 									<div class="pb-0 audioplayer-responsive d-flex justify-content-center align-items-center">
-										<iframe src="../ausstellung/audioplayer_Lied.html" class="audioplayer-iframe"
+										<iframe src="../ausstellung/audioplayer_Lied.html" class="audioplayer-iframe" fetchpriority="low"
 											title="audio player"></iframe>
 									</div>
 								</div>
@@ -739,7 +739,7 @@
 										<div class="" data-custom-animations="true"
 											data-ca-options='{"triggerHandler":"inview","animationTarget":".audioplayer-iframe","duration":"1200","startDelay":"600","delay":"180","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":30, "opacity":0},"animations":{"translateY":0,"opacity":1}}'>
 											<div class="pb-0 audioplayer-responsive d-flex justify-content-center align-items-center">
-												<iframe src="../ausstellung/audioplayer_Klavier.html" class="audioplayer-iframe" title="audio player"></iframe>
+												<iframe src="../ausstellung/audioplayer_Klavier.html" class="audioplayer-iframe" title="audio player" fetchpriority="low"></iframe>
 											</div>
 										</div>
 									</div>
@@ -1274,7 +1274,7 @@
 											data-ca-options='{"triggerHandler":"inview","animationTarget":".audioplayer-iframe","duration":"1200","startDelay":"600","delay":"180","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":30, "opacity":0},"animations":{"translateY":0,"opacity":1}}'>
 											<div class="pb-0 audioplayer-responsive d-flex justify-content-center align-items-center">
 												<iframe src="../ausstellung/audioplayer_Cello.html"
-													class="audioplayer-iframe" title="audio player"></iframe>
+													class="audioplayer-iframe" title="audio player" fetchpriority="low"></iframe>
 											</div>
 										</div>
 									</div>
