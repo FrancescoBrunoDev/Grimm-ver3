@@ -150,8 +150,36 @@
 			</div><!-- /.mainbar-wrap -->
 
 		</header><!-- /.main-header -->
+		
+		<main class="d-lg-none">
+			<section class="bg-cover-90vh d-flex flex-column justify-content-center align-items-center" alt="">
+		
+				<div class="mask-text text-leggero text-center container">
+					<h5 data-custom-animations="true"
+						data-ca-options='{"triggerHandler": "inview", "duration":"5000","startDelay":"500", "delay":"150","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":10,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
+						Diese Seite ist auf kleinen Endgeräten leider nicht einsehbar. Nutzen Sie zur Visualisierung ein größeres Endgerät.
+					</h5>
+				</div>
+		
+				<div>
+					<div class="z-index-100" data-shadow-style="4" data-inview="true" data-inview-options='{"delayTime":500}'
+						data-animate-shadow="true">
+						<div class="">
+							<div class="" Data-custom-animations="true"
+								data-ca-options='{"triggerHandler":"inview","animationTarget":".split-inner","duration":"10000","startDelay":"3000", "delay":"150","easing":"easeOutQuint","direction":"forward","initValues":{"opacity":0},"animations":{"opacity":1}}'>
+								<model-viewer class="split-inner model-viewer-busto" alt="-" src="../assets/models/Grimm-superSemplificato.glb"
+									disable-zoom auto-rotate ar-modes="webxr scene-viewer quick-look"
+									poster="https://cdn.wallpapersafari.com/37/91/3tsOxD.png" seamless-poster
+									shadow-intensity="1" orientation="0 0 60deg">
+								</model-viewer>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
 
-		<main id="content" class="row content bg-black">
+		<main id="content" class="row content bg-black d-none d-lg-block">
 
 
 			<div class="line-container" style="z-index: -100">
@@ -585,6 +613,7 @@
 	<script src="../assets/js/proximity/demo7.js"></script>
 	<!-- scroll-line-->
 	<script src="../assets/js/line-scroll/line-scroll.js"></script>
+	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
 </body>
 
