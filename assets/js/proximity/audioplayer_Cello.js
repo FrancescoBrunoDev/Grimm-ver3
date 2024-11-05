@@ -5,7 +5,7 @@ Amplitude.init({
       name: "Sonata, Op.14 - Allegro con Brio",
       artist: "Julius Otto Grimm",
       album: "We Are to Answer",
-      url: "https://uni-muenster.sciebo.de/s/GPIyOep8TAl9nAR/download?path=%2FViolin_Sonata&files=Grimm-Violin-Sonata-001.mp3",
+      url: "https://uni-muenster.sciebo.de/s/ZsUNaq4iCV9l4qx/download?path=%2Frecordings%2FViolin_Sonata&files=Grimm-Violin-Sonata-001.mp3",
       cover_art_url:
         "https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg",
     },
@@ -13,7 +13,7 @@ Amplitude.init({
       name: "Sonata, Op.14 - Adagio cantabile",
       artist: "Julius Otto Grimm",
       album: "Ask The Dust",
-      url: "https://uni-muenster.sciebo.de/s/GPIyOep8TAl9nAR/download?path=%2FViolin_Sonata&files=Grimm-Violin-Sonata-002.mp3",
+      url: "https://uni-muenster.sciebo.de/s/ZsUNaq4iCV9l4qx/download?path=%2Frecordings%2FViolin_Sonata&files=Grimm-Violin-Sonata-002.mp3",
       cover_art_url:
         "https://521dimensions.com/img/open-source/amplitudejs/album-art/ask-the-dust.jpg",
     },
@@ -21,7 +21,7 @@ Amplitude.init({
       name: "Sonata, Op.14 - Allegro",
       artist: "Julius Otto Grimm",
       album: "Anvil",
-      url: "https://uni-muenster.sciebo.de/s/GPIyOep8TAl9nAR/download?path=%2FViolin_Sonata&files=Grimm-Violin-Sonata-003.mp3",
+      url: "https://uni-muenster.sciebo.de/s/ZsUNaq4iCV9l4qx/download?path=%2Frecordings%2FViolin_Sonata&files=Grimm-Violin-Sonata-003.mp3",
       cover_art_url:
         "https://521dimensions.com/img/open-source/amplitudejs/album-art/anvil.jpg",
     },

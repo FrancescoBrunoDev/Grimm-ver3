@@ -5,7 +5,7 @@ Amplitude.init({
       name: "Op. 18, Nr. 1 - Es kommen die Tage",
       artist: "Julius Otto Grimm",
       album: "We Are to Answer",
-      url: "https://uni-muenster.sciebo.de/s/GPIyOep8TAl9nAR/download?path=%2FLied&files=Grimm-Lied_3.mp3",
+      url: "https://uni-muenster.sciebo.de/s/ZsUNaq4iCV9l4qx/download?path=%2Frecordings%2FLied&files=Grimm-Lied_3.mp3",
       cover_art_url:
         "https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg",
     },
@@ -13,7 +13,7 @@ Amplitude.init({
       name: "Op. 3, Nr. 3 - Gebet auf dem Wasser",
       artist: "Julius Otto Grimm",
       album: "Ask The Dust",
-      url: "https://uni-muenster.sciebo.de/s/GPIyOep8TAl9nAR/download?path=%2FLied&files=Grimm-Lied_4.mp3",
+      url: "https://uni-muenster.sciebo.de/s/ZsUNaq4iCV9l4qx/download?path=%2Frecordings%2FLied&files=Grimm-Lied_4.mp3",
       cover_art_url:
         "https://521dimensions.com/img/open-source/amplitudejs/album-art/ask-the-dust.jpg",
     },
@@ -21,7 +21,7 @@ Amplitude.init({
       name: "Op. 18, Nr. 3 - Dämm'rung senkte sich von oben",
       artist: "Julius Otto Grimm",
       album: "Anvil",
-      url: "https://uni-muenster.sciebo.de/s/GPIyOep8TAl9nAR/download?path=%2FLied&files=Grimm-Lied_5.mp3",
+      url: "https://uni-muenster.sciebo.de/s/ZsUNaq4iCV9l4qx/download?path=%2Frecordings%2FLied&files=Grimm-Lied_5.mp3",
       cover_art_url:
         "https://521dimensions.com/img/open-source/amplitudejs/album-art/anvil.jpg",
     },
@@ -29,7 +29,7 @@ Amplitude.init({
       name: "Op. 1, Nr. 3 - Am See",
       artist: "Julius Otto Grimm",
       album: "Anvil",
-      url: "https://uni-muenster.sciebo.de/s/GPIyOep8TAl9nAR/download?path=%2FLied&files=Grimm-Lied_6.mp3",
+      url: "https://uni-muenster.sciebo.de/s/ZsUNaq4iCV9l4qx/download?path=%2Frecordings%2FLied&files=Grimm-Lied_6.mp3",
       cover_art_url:
         "https://521dimensions.com/img/open-source/amplitudejs/album-art/anvil.jpg",
     },

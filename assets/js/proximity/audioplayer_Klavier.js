@@ -5,7 +5,7 @@ Amplitude.init({
       name: "Op. 2, Nr. 1 - Abendlandschaft",
       artist: "Julius Otto Grimm",
       album: "We Are to Answer",
-      url: "https://uni-muenster.sciebo.de/s/GPIyOep8TAl9nAR/download?path=%2FKlavier&files=Grimm-Piano_1.mp3",
+      url: "https://uni-muenster.sciebo.de/s/ZsUNaq4iCV9l4qx/download?path=%2Frecordings%2FKlavier&files=Grimm-Piano_1.mp3",
       cover_art_url:
         "https://521dimensions.com/img/open-source/amplitudejs/album-art/we-are-to-answer.jpg",
     },
@@ -13,7 +13,7 @@ Amplitude.init({
       name: "Op. 2, Nr. 2 - Gesellschaft im Freien (Scherzo)",
       artist: "Julius Otto Grimm",
       album: "Ask The Dust",
-      url: "https://uni-muenster.sciebo.de/s/GPIyOep8TAl9nAR/download?path=%2FKlavier&files=Grimm-Piano_2.mp3",
+      url: "https://uni-muenster.sciebo.de/s/ZsUNaq4iCV9l4qx/download?path=%2Frecordings%2FKlavier&files=Grimm-Piano_2.mp3",
       cover_art_url:
         "https://521dimensions.com/img/open-source/amplitudejs/album-art/ask-the-dust.jpg",
     },
@@ -21,7 +21,7 @@ Amplitude.init({
       name: "Op. 2, Nr. 4 - Elfenchor",
       artist: "Julius Otto Grimm",
       album: "Anvil",
-      url: "https://uni-muenster.sciebo.de/s/GPIyOep8TAl9nAR/download?path=%2FKlavier&files=Grimm-Piano_3.mp3",
+      url: "https://uni-muenster.sciebo.de/s/ZsUNaq4iCV9l4qx/download?path=%2Frecordings%2FKlavier&files=Grimm-Piano_3.mp3",
       cover_art_url:
         "https://521dimensions.com/img/open-source/amplitudejs/album-art/anvil.jpg",
     },
@@ -29,7 +29,7 @@ Amplitude.init({
       name: "Op. 6, Nr. 3",
       artist: "Julius Otto Grimm",
       album: "Anvil",
-      url: "https://uni-muenster.sciebo.de/s/GPIyOep8TAl9nAR/download?path=%2FKlavier&files=Grimm-Piano_4.mp3",
+      url: "https://uni-muenster.sciebo.de/s/ZsUNaq4iCV9l4qx/download?path=%2Frecordings%2FKlavier&files=Grimm-Piano_4.mp3",
       cover_art_url:
         "https://521dimensions.com/img/open-source/amplitudejs/album-art/anvil.jpg",
     },
@@ -37,7 +37,7 @@ Amplitude.init({
       name: "Op. 4, Scherzo 2",
       artist: "Julius Otto Grimm",
       album: "Anvil",
-      url: "https://uni-muenster.sciebo.de/s/GPIyOep8TAl9nAR/download?path=%2FKlavier&files=Grimm-Piano_5.mp3",
+      url: "https://uni-muenster.sciebo.de/s/ZsUNaq4iCV9l4qx/download?path=%2Frecordings%2FKlavier&files=Grimm-Piano_5.mp3",
       cover_art_url:
         "https://521dimensions.com/img/open-source/amplitudejs/album-art/anvil.jpg",
     },
